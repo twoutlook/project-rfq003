@@ -608,19 +608,29 @@ Ext.onReady(function () {
             {sheet: 2, row: 10, col: 2, json: {dsd: "ed", data: ""}},
             {sheet: 2, row: 10, col: 3, json: {dsd: "ed", data: ""}},
             {sheet: 2, row: 11, col: 1, json: {dsd: "ed", data: "ZINC-2"}},
-            {sheet: 2, row: 11, col: 2, json: {dsd: "ed", data: "15.81"}},
+            // {sheet: 2, row: 11, col: 2, json: {dsd: "ed", data: "15.81"}},
+            {sheet: 2, row: 11, col: 2, json: {dsd: "ed", data: "17.50"}},
+            
             {sheet: 2, row: 11, col: 3, json: {dsd: "ed", data: "12.81"}},
             {sheet: 2, row: 12, col: 1, json: {dsd: "ed", data: "ZINC-3"}},
-            {sheet: 2, row: 12, col: 2, json: {dsd: "ed", data: "15.81"}},
+            // {sheet: 2, row: 12, col: 2, json: {dsd: "ed", data: "15.81"}},
+            {sheet: 2, row: 12, col: 2, json: {dsd: "ed", data: "17.50"}},
+            
             {sheet: 2, row: 12, col: 3, json: {dsd: "ed", data: "12.81"}},
             {sheet: 2, row: 13, col: 1, json: {dsd: "ed", data: "ZINC-5"}},
-            {sheet: 2, row: 13, col: 2, json: {dsd: "ed", data: "15.81"}},
+            // {sheet: 2, row: 13, col: 2, json: {dsd: "ed", data: "15.81"}},
+            {sheet: 2, row: 13, col: 2, json: {dsd: "ed", data: "17.50"}},
+            
             {sheet: 2, row: 13, col: 3, json: {dsd: "ed", data: "12.81"}},
             {sheet: 2, row: 14, col: 1, json: {dsd: "ed", data: "ZINC-7"}},
             {sheet: 2, row: 14, col: 2, json: {dsd: "ed", data: "16.67"}},
+            {sheet: 2, row: 14, col: 2, json: {dsd: "ed", data: "17.50"}},
+            
             {sheet: 2, row: 14, col: 3, json: {dsd: "ed", data: "13.67"}},
             {sheet: 2, row: 15, col: 1, json: {dsd: "ed", data: "ZAMAK-8"}},
-            {sheet: 2, row: 15, col: 2, json: {dsd: "ed", data: "16.67"}},
+            // {sheet: 2, row: 15, col: 2, json: {dsd: "ed", data: "16.67"}},
+            {sheet: 2, row: 15, col: 2, json: {dsd: "ed", data: "17.50"}},
+            
             {sheet: 2, row: 15, col: 3, json: {dsd: "ed", data: "13.67"}},
             {sheet: 2, row: 16, col: 1, json: {dsd: "ed", data: " 三。镁合金"}},
             {sheet: 2, row: 16, col: 2, json: {dsd: "ed", data: ""}},
