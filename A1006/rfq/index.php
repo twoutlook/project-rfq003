@@ -53,6 +53,7 @@ if (strlen($active_user) == 0) {
 
             </div>
             <div style="font-size: 32pt">
+                <mark><i>  版本︰2016-10-06, 修改材料價格</i></mark> 
                 <ul>
                     <li>
                         <a target="_blank" href="index-zh.php">RFQ 報價自動化 ( 公版 )</a>

@@ -1634,7 +1634,7 @@ Ext.onReady(function () {
 //          // 只是做成最後一行
             {sheet: 1, row: 0, col: 0, json: {fz: 10, ww: 'break-word', ws: 'normal', dsd: "", height: 36, va: "middle"}},
             {sheet: 1, row: 7, col: 1, json: {bgc: colorVersion, data: 'RFQ'}},
-            {sheet: 1, row: 8, col: 1, json: {bgc: colorVersion, data: 'A0707'}}, //VERSION
+            {sheet: 1, row: 8, col: 1, json: {bgc: colorVersion, data: 'A1006'}}, //VERSION
             {sheet: 1, row: 9, col: 1, json: {bgc: colorVersion, data: 'MEX'}}
         ]
     };
