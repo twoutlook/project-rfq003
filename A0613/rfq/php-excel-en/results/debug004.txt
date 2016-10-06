@@ -1,0 +1,461 @@
+0,B1,,1,
+1,C1,,1,
+2,D1,,1,
+3,B2,,2,
+4,C2,,2,
+5,D2,,2,
+6,B3,Inquiry date:| 接受询价日期：,3,Inquiry date:| 接受询价日期：
+7,C3,2016.6.25,3,2016.6.25
+8,D3,2016.6.25,3,2016.6.25
+9,B4,Sales:| 业务担当：,4,Sales:| 业务担当：
+10,C4,Jeff,4,Jeff
+11,D4,Jeff,4,Jeff
+12,B5,,5,
+13,C5,,5,
+14,D5,,5,
+15,A6,,6,
+16,B6,Drawing| 产品简图 ,6,Drawing| 产品简图 
+17,C6,,6,
+18,D6,,6,
+19,A7,RFQ,7,RFQ
+20,B7,Project/Part No.| 项目 料号 ,7,Project/Part No.| 项目 料号 
+21,C7,2XTL0007,7,2XTL0007
+22,D7,9101930,7,9101930
+23,A8,A0613,8,A0613
+24,B8,Part name/Drawing Rev.| 品名 / 图纸版本号：,8,Part name/Drawing Rev.| 品名 / 图纸版本号：
+25,C8,,8,
+26,D8,,8,
+27,A9,MEX,9,MEX
+28,B9,Parts spec(mm) |产品外形尺寸,9,Parts spec(mm) |产品外形尺寸
+29,C9,,9,
+30,D9,,9,
+31,A10,,10,
+32,B10,Material spec：|材质规格： ,10,Material spec：|材质规格： 
+33,C10,ADC12<span style="padding-left:20px;font-size:0px;">&nbsp;</span>,10,ADC12<span style="padding-left:20px;font-size:0px;">&nbsp;</span>
+34,D10,ADC12<span style="padding-left:20px;font-size:0px;">&nbsp;</span>,10,ADC12<span style="padding-left:20px;font-size:0px;">&nbsp;</span>
+35,A11,,11,
+36,B11,Weight（g）：|产品单重（g）：,11,Weight（g）：|产品单重（g）：
+37,C11,38,11,38
+38,D11,26,11,26
+39,A12,,12,
+40,B12,Surface finishing：|表面要求： ,12,Surface finishing：|表面要求： 
+41,C12,normal Al alloy chromating|铝合金一般皮膜（48H）<span style="padding-left:20px;font-size:0px;">&nbsp;</span>,12,normal Al alloy chromating|铝合金一般皮膜（48H）<span style="padding-left:20px;font-size:0px;">&nbsp;</span>
+42,D12,normal Al alloy chromating|铝合金一般皮膜（48H）<span style="padding-left:20px;font-size:0px;">&nbsp;</span>,12,normal Al alloy chromating|铝合金一般皮膜（48H）<span style="padding-left:20px;font-size:0px;">&nbsp;</span>
+43,A13,,13,
+44,B13,Annual Qty：|年需求量：,13,Annual Qty：|年需求量：
+45,C13,6k,13,6k
+46,D13,6k,13,6k
+47,A14,,14,
+48,B14,MOQ：,14,MOQ：
+49,C14,2000,14,2000
+50,D14,2000,14,2000
+51,A15,,15,
+52,B15,Tooling cost：|模具费用： ,15,Tooling cost：|模具费用： 
+53,C15,,15,
+54,D15,,15,
+55,A16,,16,
+56,B16,Cavity per Mold |模穴数 ,16,Cavity per Mold |模穴数 
+57,C16,2,16,2
+58,D16,2,16,2
+59,A17,,17,
+60,B17,Slide  QTY per Mold |侧滑模数/油压抽芯数 ,17,Slide  QTY per Mold |侧滑模数/油压抽芯数 
+61,C17,0,17,0
+62,D17,0,17,0
+63,A18,,18,
+64,B18,Tooling life guarantee(shot) |模具寿命：,18,Tooling life guarantee(shot) |模具寿命：
+65,C18,100k,18,100k
+66,D18,100k,18,100k
+67,A19,,19,
+68,B19,Diecasting mold cost：|压铸模费用： ,19,Diecasting mold cost：|压铸模费用： 
+69,C19,¥87,000.00,19,87000.00
+70,D19,¥87,000.00,19,87000.00
+71,A20,,20,
+72,B20,Trimming die cost：|切边模费用： ,20,Trimming die cost：|切边模费用： 
+73,C20,¥5,000.00,20,5000.00
+74,D20,¥5,000.00,20,5000.00
+75,A21,,21,
+76,B21,CNC fixture cost：|加工夹治具费用： ,21,CNC fixture cost：|加工夹治具费用： 
+77,C21,¥2,000.00,21,2000.00
+78,D21,¥2,000.00,21,2000.00
+79,A22,,22,
+80,B22,专用测试设备费用：,22,专用测试设备费用：
+81,C22,¥0.00,22,0.00
+82,D22,¥0.00,22,0.00
+83,A23,,23,
+84,B23,Painting fixture cost：|烤漆夹治具费用： ,23,Painting fixture cost：|烤漆夹治具费用： 
+85,C23,¥0.00,23,¥0.00
+86,D23,¥0.00,23,¥0.00
+87,A24,,24,
+88,B24,Total tooling cost(RMB) :|模具总价（人民币）： ,24,Total tooling cost(RMB) :|模具总价（人民币）： 
+89,C24,¥94,000.00,24,¥94,000.00
+90,D24,¥94,000.00,24,¥94,000.00
+91,A25,,25,
+92,B25,Total tooling cost(USD):|模具总价（USD）： ,25,Total tooling cost(USD):|模具总价（USD）： 
+93,C25,$14,803.15,25,$14,803.15
+94,D25,$14,803.15,25,$14,803.15
+95,A26,,26,
+96,B26,,26,
+97,C26,,26,
+98,D26,,26,
+99,A27,,27,
+100,B27,,27,
+101,C27,,27,
+102,D27,,27,
+103,A28,,28,
+104,B28,Part price：|产品单价： ,28,Part price：|产品单价： 
+105,C28,,28,
+106,D28,,28,
+107,A29,* ,29,* 
+108,B29,1)Material cost： |1)材料费 ： ,29,1)Material cost： |1)材料费 ： 
+109,C29,,29,
+110,D29,,29,
+111,A30,1-1）,30,1-1）
+112,B30,Material spec：|材质规格：,30,Material spec：|材质规格：
+113,C30,ADC12,30,ADC12
+114,D30,ADC12,30,ADC12
+115,A31,1-2）,31,1-2）
+116,B31,Material cost  RMB/Kg：|材料单价/KG :,31,Material cost  RMB/Kg：|材料单价/KG :
+117,C31,¥13.25,31,¥13.25
+118,D31,¥13.25,31,¥13.25
+119,A32,1-3）,32,1-3）
+120,B32,Weight（g）|单重（g）：,32,Weight（g）|单重（g）：
+121,C32,38,32,38
+122,D32,26,32,26
+123,A33,1-4）,33,1-4）
+124,B33,Part material cost(Net):|产品材料费（净重价格）： ,33,Part material cost(Net):|产品材料费（净重价格）： 
+125,C33,¥0.50,33,¥0.50
+126,D33,¥0.34,33,¥0.34
+127,A34,1-5）,34,1-5）
+128,B34,Scrape of biscuit,runner,overflow ,etc.|料柄流道渣包等废料重量(g)： ,34,Scrape of biscuit,runner,overflow ,etc.|料柄流道渣包等废料重量(g)： 
+129,C34,40,34,40
+130,D34,40,34,40
+131,A35,1-6）,35,1-6）
+132,B35,Scrape rate of biscuit,runner,overflow:|料柄流道渣包比率 ： ,35,Scrape rate of biscuit,runner,overflow:|料柄流道渣包比率 ： 
+133,C35,66%,35,66%
+134,D35,57%,35,57%
+135,A36,1-7）,36,1-7）
+136,B36, Scrape material cost/Kg: |料柄流道渣包等废料价格/Kg： ,36, Scrape material cost/Kg: |料柄流道渣包等废料价格/Kg： 
+137,C36,¥11.25,36,¥11.25
+138,D36,¥11.25,36,¥11.25
+139,A37,1-8）,37,1-8）
+140,B37, Scrape material price lost ：|料柄流道渣包回收价差损失额 ： ,37, Scrape material price lost ：|料柄流道渣包回收价差损失额 ： 
+141,C37,¥0.04,37,¥0.04
+142,D37,¥0.04,37,¥0.04
+143,A38,1-9）,38,1-9）
+144,B38,Melting  oxidization lost 2% |压铸熔炼材料氧化损耗(量）2% ,38,Melting  oxidization lost 2% |压铸熔炼材料氧化损耗(量）2% 
+145,C38,¥0.01,38,¥0.01
+146,D38,¥0.01,38,¥0.01
+147,A39,,39,
+148,B39,Total material Cost:|材料费　小计： ,39,Total material Cost:|材料费　小计： 
+149,C39,¥0.55,39,¥0.55
+150,D39,¥0.39,39,¥0.39
+151,A40,* ,40,* 
+152,B40,2)Diecasting Molding cost cost (incl.trimming) |2)压铸费(含切边）： ,40,2)Diecasting Molding cost cost (incl.trimming) |2)压铸费(含切边）： 
+153,C40,,40,
+154,D40,,40,
+155,A41,2-1）,41,2-1）
+156,B41,Machine size：|适用机型： ,41,Machine size：|适用机型： 
+157,C41,AL-250T/280T|鋁-250T/280T<span style="padding-left:20px;font-size:0px;">&nbsp;</span>,41,AL-250T/280T|鋁-250T/280T<span style="padding-left:20px;font-size:0px;">&nbsp;</span>
+158,D41,AL-250T/280T|鋁-250T/280T<span style="padding-left:20px;font-size:0px;">&nbsp;</span>,41,AL-250T/280T|鋁-250T/280T<span style="padding-left:20px;font-size:0px;">&nbsp;</span>
+159,A42,2-2）,42,2-2）
+160,B42,Machine cost :/H |设备费率/H： ,42,Machine cost :/H |设备费率/H： 
+161,C42,¥185.00,42,¥185.00
+162,D42,¥185.00,42,¥185.00
+163,A43,2-3）,43,2-3）
+164,B43,Cycle Time (s)/ Shot |工时（秒）/只 ：,43,Cycle Time (s)/ Shot |工时（秒）/只 ：
+165,C43,45,43,45
+166,D43,45,43,45
+167,A44,2-4）,44,2-4）
+168,B44,Output( Shot)/H:|产能 模/H ：,44,Output( Shot)/H:|产能 模/H ：
+169,C44,80,44,80
+170,D44,80,44,80
+171,A45,2-5）,45,2-5）
+172,B45,Machine cost/ shot |设备费/模： ,45,Machine cost/ shot |设备费/模： 
+173,C45,¥2.31,45,¥2.31
+174,D45,¥2.31,45,¥2.31
+175,A46,2-6）,46,2-6）
+176,B46,Labor cost/ shot |人工费/模 ： ,46,Labor cost/ shot |人工费/模 ： 
+177,C46,¥0.84,46,¥0.84
+178,D46,¥0.84,46,¥0.84
+179,A47,2-7）,47,2-7）
+180,B47,Labor rate/H |人工费率/H： ,47,Labor rate/H |人工费率/H： 
+181,C47,¥67.50,47,¥67.50
+182,D47,¥67.50,47,¥67.50
+183,A48,2-8）,48,2-8）
+184,B48,Yield rate: |良品率： ,48,Yield rate: |良品率： 
+185,C48,96%,48,96%
+186,D48,96%,48,96%
+187,A49,,49,
+188,B49,Sub-Diecasting Molding cost:|压铸费　小计： ,49,Sub-Diecasting Molding cost:|压铸费　小计： 
+189,C49,¥1.64,49,¥1.64
+190,D49,¥1.64,49,¥1.64
+191,A50,* ,50,* 
+192,B50,3)Deburring cost(incl.rough grinding if it neended) |3)毛刺处理费（含粗磨）,50,3)Deburring cost(incl.rough grinding if it neended) |3)毛刺处理费（含粗磨）
+193,C50,,50,
+194,D50,,50,
+195,A51,3-1）,51,3-1）
+196,B51,Cycle time (s)/pc: |工时（秒）/只 ： ,51,Cycle time (s)/pc: |工时（秒）/只 ： 
+197,C51,50,51,50
+198,D51,50,51,50
+199,A52,3-2）,52,3-2）
+200,B52,Labor rate/H |人工费率/H： ,52,Labor rate/H |人工费率/H： 
+201,C52,¥35.00,52,¥35.00
+202,D52,¥35.00,52,¥35.00
+203,A53,,53,
+204,B53,Total deburring cost: |毛刺处理费　小计： ,53,Total deburring cost: |毛刺处理费　小计： 
+205,C53,¥0.49,53,¥0.49
+206,D53,¥0.49,53,¥0.49
+207,A54,* ,54,* 
+208,B54,4)Grinding cost(Grinding for feeding gate/overflow,part line and normal appearance defects) |4)外观打磨费（入/溢料口, 分模线及一般外观瑕疵等部位做打磨）,54,4)Grinding cost(Grinding for feeding gate/overflow,part line and normal appearance defects) |4)外观打磨费（入/溢料口, 分模线及一般外观瑕疵等部位做打磨）
+209,C54,,54,
+210,D54,,54,
+211,A55,4-1）,55,4-1）
+212,B55,Cycle Time (s)/pc |工时（秒）/只 ： ,55,Cycle Time (s)/pc |工时（秒）/只 ： 
+213,C55,30,55,30
+214,D55,30,55,30
+215,A56,4-2）,56,4-2）
+216,B56,Labor rate/H |人工费率/H： ,56,Labor rate/H |人工费率/H： 
+217,C56,¥45.00,56,¥45.00
+218,D56,¥45.00,56,¥45.00
+219,A57,4-3）,57,4-3）
+220,B57,Grinding cost |打磨费： ,57,Grinding cost |打磨费： 
+221,C57,¥0.38,57,¥0.38
+222,D57,¥0.38,57,¥0.38
+223,A58,4-4）,58,4-4）
+224,B58,Yield  rate: |良品率： ,58,Yield  rate: |良品率： 
+225,C58,95%,58,95%
+226,D58,95%,58,95%
+227,A59,,59,
+228,B59,,59,
+229,C59,,59,
+230,D59,,59,
+231,A60,,60,
+232,B60,Total grinding cost: |外观打磨费　小计：,60,Total grinding cost: |外观打磨费　小计：
+233,C60,¥0.39,60,¥0.39
+234,D60,¥0.39,60,¥0.39
+235,A61,* ,61,* 
+236,B61,5)Shaping cost |5)平整度整形费 ,61,5)Shaping cost |5)平整度整形费 
+237,C61,,61,
+238,D61,,61,
+239,A62,5-1）,62,5-1）
+240,B62,Cycle Time (s)/pc |工时（秒）/只 ： ,62,Cycle Time (s)/pc |工时（秒）/只 ： 
+241,C62,0,62,0
+242,D62,0,62,0
+243,A63,5-2）,63,5-2）
+244,B63,Labor rate/H |人工费率/H： ,63,Labor rate/H |人工费率/H： 
+245,C63,¥45.00,63,¥45.00
+246,D63,¥45.00,63,¥45.00
+247,A64,5-3）,64,5-3）
+248,B64,Labor cost/pc |人工费/只 ,64,Labor cost/pc |人工费/只 
+249,C64,¥0.00,64,¥0.00
+250,D64,¥0.00,64,¥0.00
+251,A65,,65,
+252,B65,Total  shaping cost |平整度整形费　小计： ,65,Total  shaping cost |平整度整形费　小计： 
+253,C65,¥0.00,65,¥0.00
+254,D65,¥0.00,65,¥0.00
+255,A66,* ,66,* 
+256,B66, 6)Machining cost |6)机加工 ,66, 6)Machining cost |6)机加工 
+257,C66,traditional machining|传统机加工<span style="padding-left:20px;font-size:0px;">&nbsp;</span>,66,traditional machining|传统机加工<span style="padding-left:20px;font-size:0px;">&nbsp;</span>
+258,D66,traditional machining|传统机加工<span style="padding-left:20px;font-size:0px;">&nbsp;</span>,66,traditional machining|传统机加工<span style="padding-left:20px;font-size:0px;">&nbsp;</span>
+259,A67,6-1）,67,6-1）
+260,B67,Machinin time(s)/pc |机加工工时（秒）/只 ： ,67,Machinin time(s)/pc |机加工工时（秒）/只 ： 
+261,C67,20,67,20
+262,D67,20,67,20
+263,A68,6-2）,68,6-2）
+264,B68,Machining rate/H |机加工费率/H： ,68,Machining rate/H |机加工费率/H： 
+265,C68,¥45.00,68,¥45.00
+266,D68,¥45.00,68,¥45.00
+267,A69,6-3）,69,6-3）
+268,B69,Yield rate: |机加工良品率： ,69,Yield rate: |机加工良品率： 
+269,C69,95%,69,95%
+270,D69,95%,69,95%
+271,A70,,70,
+272,B70,Total machining cost: |机加工　小计： ,70,Total machining cost: |机加工　小计： 
+273,C70,¥0.26,70,¥0.26
+274,D70,¥0.26,70,¥0.26
+275,A71,* ,71,* 
+276,B71,Frozen De-burning/Thermal De-burring /(S.) |7)冷喷.热烧毛刺 费率/分： ,71,Frozen De-burning/Thermal De-burring /(S.) |7)冷喷.热烧毛刺 费率/分： 
+277,C71,≡cold spray,burning burr≡|≡冷喷.热烧≡<span style="padding-left:20px;font-size:0px;">&nbsp;</span>,71,≡cold spray,burning burr≡|≡冷喷.热烧≡<span style="padding-left:20px;font-size:0px;">&nbsp;</span>
+278,D71,≡cold spray,burning burr≡|≡冷喷.热烧≡<span style="padding-left:20px;font-size:0px;">&nbsp;</span>,71,≡cold spray,burning burr≡|≡冷喷.热烧≡<span style="padding-left:20px;font-size:0px;">&nbsp;</span>
+279,A72,7-1）,72,7-1）
+280,B72,Time(s)/pc|工时（秒）/只 ： ,72,Time(s)/pc|工时（秒）/只 ： 
+281,C72,0,72,0
+282,D72,0,72,0
+283,A73,7-2）,73,7-2）
+284,B73,Machining cost/H |加工费率/H： ,73,Machining cost/H |加工费率/H： 
+285,C73,¥0.00,73,¥0.00
+286,D73,¥0.00,73,¥0.00
+287,A74,,74,
+288,B74,Sub-total cost |冷喷热烧毛刺　小计：,74,Sub-total cost |冷喷热烧毛刺　小计：
+289,C74,¥0.00,74,¥0.00
+290,D74,¥0.00,74,¥0.00
+291,A75,* ,75,* 
+292,B75,Shot blasting,vibration tumbling Cost :|8)喷沙.抛丸.震动研磨 费率 ,75,Shot blasting,vibration tumbling Cost :|8)喷沙.抛丸.震动研磨 费率 
+293,C75,≡shot blasting,vibration≡|≡喷砂,抛丸,震动研磨≡<span style="padding-left:20px;font-size:0px;">&nbsp;</span>,75,≡shot blasting,vibration≡|≡喷砂,抛丸,震动研磨≡<span style="padding-left:20px;font-size:0px;">&nbsp;</span>
+294,D75,≡shot blasting,vibration≡|≡喷砂,抛丸,震动研磨≡<span style="padding-left:20px;font-size:0px;">&nbsp;</span>,75,≡shot blasting,vibration≡|≡喷砂,抛丸,震动研磨≡<span style="padding-left:20px;font-size:0px;">&nbsp;</span>
+295,A76,8-1）,76,8-1）
+296,B76,Time(s)/pc |工时（秒）/只 ： ,76,Time(s)/pc |工时（秒）/只 ： 
+297,C76,0,76,0
+298,D76,0,76,0
+299,A77,8-2）,77,8-2）
+300,B77,Machining cost/H:|加工费率/H： ,77,Machining cost/H:|加工费率/H： 
+301,C77,¥0.00,77,¥0.00
+302,D77,¥0.00,77,¥0.00
+303,A78,,78,
+304,B78,Sub-total cost: |喷沙抛丸震动研磨　小计： ,78,Sub-total cost: |喷沙抛丸震动研磨　小计： 
+305,C78,¥0.00,78,¥0.00
+306,D78,¥0.00,78,¥0.00
+307,A79,* ,79,* 
+308,B79,9)Chromating cost |9)皮膜处理 费率 ,79,9)Chromating cost |9)皮膜处理 费率 
+309,C79,,79,
+310,D79,,79,
+311,A80,9-1）,80,9-1）
+312,B80,Chromating |皮膜处理： ,80,Chromating |皮膜处理： 
+313,C80,normal chromating（48H）|一般皮膜（48H）<span style="padding-left:20px;font-size:0px;">&nbsp;</span>,80,normal chromating（48H）|一般皮膜（48H）<span style="padding-left:20px;font-size:0px;">&nbsp;</span>
+314,D80,normal chromating（48H）|一般皮膜（48H）<span style="padding-left:20px;font-size:0px;">&nbsp;</span>,80,normal chromating（48H）|一般皮膜（48H）<span style="padding-left:20px;font-size:0px;">&nbsp;</span>
+315,A81,9-2）,81,9-2）
+316,B81,Part surface area(single face) DM2:|工件表面面积 (算单面）DM2： ,81,Part surface area(single face) DM2:|工件表面面积 (算单面）DM2： 
+317,C81,0.4716,81,0.4716
+318,D81,0.3696,81,0.3696
+319,A82,9-3）,82,9-3）
+320,B82,Cost/DM2 |加工费率/DM2： ,82,Cost/DM2 |加工费率/DM2： 
+321,C82,¥0.20,82,¥0.20
+322,D82,¥0.20,82,¥0.20
+323,A83,,83,
+324,B83, Difficulty Index |難度係數 ,83, Difficulty Index |難度係數 
+325,C83,2.0,83,2.0
+326,D83,2.0,83,2.0
+327,A84,,84,
+328,B84,sub-toal cost: |皮膜处理　小计： ,84,sub-toal cost: |皮膜处理　小计： 
+329,C84,¥0.19,84,¥0.19
+330,D84,¥0.15,84,¥0.15
+331,A85,* ,85,* 
+332,B85,10)粉体烤漆.液体烤漆...： ,85,10)粉体烤漆.液体烤漆...： 
+333,C85,,85,
+334,D85,,85,
+335,A86,10-1）,86,10-1）
+336,B86,Surface finishing requirement: |表面要求,86,Surface finishing requirement: |表面要求
+337,C86,===表面要求(2)===<span style="padding-left:20px;font-size:0px;">&nbsp;</span>,86,===表面要求(2)===<span style="padding-left:20px;font-size:0px;">&nbsp;</span>
+338,D86,===表面要求(2)===<span style="padding-left:20px;font-size:0px;">&nbsp;</span>,86,===表面要求(2)===<span style="padding-left:20px;font-size:0px;">&nbsp;</span>
+339,A87,10-2）,87,10-2）
+340,B87,Part surface area(painting area)DM2 |工件表面积(算需喷漆面积）DM2： ,87,Part surface area(painting area)DM2 |工件表面积(算需喷漆面积）DM2： 
+341,C87,0,87,0
+342,D87,0,87,0
+343,A88,10-3）,88,10-3）
+344,B88,Painting material cost:|漆材料费/dm： ,88,Painting material cost:|漆材料费/dm： 
+345,C88,¥0.00,88,¥0.00
+346,D88,¥0.00,88,¥0.00
+347,A89,10-4）,89,10-4）
+348,B89,Euipment + labor cost：|烤漆设备+人工費率/dm： ,89,Euipment + labor cost：|烤漆设备+人工費率/dm： 
+349,C89,¥0.00,89,¥0.00
+350,D89,¥0.00,89,¥0.00
+351,A90,10-5）,90,10-5）
+352,B90,遮蔽費用：,90,遮蔽費用：
+353,C90,¥0.00,90,¥0.00
+354,D90,¥0.00,90,¥0.00
+355,A91,10-6）,91,10-6）
+356,B91, 印刷費用：,91, 印刷費用：
+357,C91,¥0.00,91,¥0.00
+358,D91,¥0.00,91,¥0.00
+359,A92,10-7）,92,10-7）
+360,B92,镭雕費用：,92,镭雕費用：
+361,C92,¥0.00,92,¥0.00
+362,D92,¥0.00,92,¥0.00
+363,A93,10-8）,93,10-8）
+364,B93,Yield rate:|良品率： ,93,Yield rate:|良品率： 
+365,C93,95%,93,95%
+366,D93,95%,93,95%
+367,A94,10-9）,94,10-9）
+368,B94,Part difficulty index ：|产品难度系数 K 值：K = 0.8-1.5 ,94,Part difficulty index ：|产品难度系数 K 值：K = 0.8-1.5 
+369,C94,1.0,94,1.0
+370,D94,1.0,94,1.0
+371,A95,,95,
+372,B95,Total painting cost |粉体液体烤漆　小计： ,95,Total painting cost |粉体液体烤漆　小计： 
+373,C95,¥0.00,95,¥0.00
+374,D95,¥0.00,95,¥0.00
+375,A96,* ,96,* 
+376,B96,11)Other special treatm11)|其它特殊处理： ,96,11)Other special treatm11)|其它特殊处理： 
+377,C96,,96,
+378,D96,,96,
+379,A97,11-1）,97,11-1）
+380,B97,Time(s)/pc |工时（秒）/只 ： ,97,Time(s)/pc |工时（秒）/只 ： 
+381,C97,0,97,0
+382,D97,0,97,0
+383,A98,11-2）,98,11-2）
+384,B98,Cost/pc |费用/只 ,98,Cost/pc |费用/只 
+385,C98,¥0.00,98,¥0.00
+386,D98,¥0.00,98,¥0.00
+387,A99,,99,
+388,B99,Sub-toal :|其它特殊处理　小计： ,99,Sub-toal :|其它特殊处理　小计： 
+389,C99,¥0.00,99,¥0.00
+390,D99,¥0.00,99,¥0.00
+391,A100,* ,100,* 
+392,B100,12)Air tightness leaking test 12)|气密性测试 ： ,100,12)Air tightness leaking test 12)|气密性测试 ： 
+393,C100,,100,
+394,D100,,100,
+395,A101,12-1）,101,12-1）
+396,B101,Time(s)/pc |工时（秒）/只 ： ,101,Time(s)/pc |工时（秒）/只 ： 
+397,C101,0,101,0
+398,D101,0,101,0
+399,A102,12-2）,102,12-2）
+400,B102,Test cost/pc |气测费率/H ,102,Test cost/pc |气测费率/H 
+401,C102,¥45.00,102,¥45.00
+402,D102,¥45.00,102,¥45.00
+403,A103,,103,
+404,B103,Sub-total |气密性测试　小计： ,103,Sub-total |气密性测试　小计： 
+405,C103,¥0.00,103,¥0.00
+406,D103,¥0.00,103,¥0.00
+407,A104,* ,104,* 
+408,B104,13)Inspection &amp; Packing cost:|13)筛选包装 费率 /H： ,104,13)Inspection &amp; Packing cost:|13)筛选包装 费率 /H： 
+409,C104,,104,
+410,D104,,104,
+411,A105,13-1）,105,13-1）
+412,B105,Time(s)/pc |工时（秒）/只 ： ,105,Time(s)/pc |工时（秒）/只 ： 
+413,C105,30,105,30
+414,D105,30,105,30
+415,A106,13-2）,106,13-2）
+416,B106,Labor cost/pc|人工费/只 ,106,Labor cost/pc|人工费/只 
+417,C106,¥0.29,106,¥0.29
+418,D106,¥0.29,106,¥0.29
+419,A107,13-3）,107,13-3）
+420,B107,Packing material cost:|包材费： ,107,Packing material cost:|包材费： 
+421,C107,¥0.15,107,¥0.15
+422,D107,¥0.15,107,¥0.15
+423,A108,,108,
+424,B108,Sub-Total cost :|筛选包装　小计：,108,Sub-Total cost :|筛选包装　小计：
+425,C108,¥0.44,108,¥0.44
+426,D108,¥0.44,108,¥0.44
+427,A109,,109,
+428,B109, Total cost for all processes:|各工序费用　合计：,109, Total cost for all processes:|各工序费用　合计：
+429,C109,¥3.97,109,¥3.97
+430,D109,¥3.77,109,¥3.77
+431,B110,Overhead Cost &amp; Margin Profit % |管销&amp;利润%,110,Overhead Cost &amp; Margin Profit % |管销&amp;利润%
+432,C110,15%,110,15%
+433,D110,15%,110,15%
+434,B111,Overhead  Cost &amp; Profit |管销&amp;利润,111,Overhead  Cost &amp; Profit |管销&amp;利润
+435,C111,¥0.60,111,¥0.60
+436,D111,¥0.56,111,¥0.56
+437,B112,Hardware or Components Cost (if any): |其他五金配件： ,112,Hardware or Components Cost (if any): |其他五金配件： 
+438,C112,¥0.00,112,¥0.00
+439,D112,¥0.00,112,¥0.00
+440,B113,Assemble cost |组装费： ,113,Assemble cost |组装费： 
+441,C113,¥0.00,113,¥0.00
+442,D113,¥0.00,113,¥0.00
+443,B114,Sub-Total : |组装 小计： ,114,Sub-Total : |组装 小计： 
+444,C114,¥0.00,114,¥0.00
+445,D114,¥0.00,114,¥0.00
+446,B115,Total Cost per part (RMB) : |合計（未稅）：,115,Total Cost per part (RMB) : |合計（未稅）：
+447,C115,¥4.56,115,¥4.56
+448,D115,¥4.33,115,¥4.33
+449,B116,Total cost per Part (USD): |总计（美金）： ,116,Total cost per Part (USD): |总计（美金）： 
+450,C116,$0.72,116,$0.72
+451,D116,$0.68,116,$0.68
+452,B117,Total Cost per part (RMB with VAT) :|合計（含稅）：,117,Total Cost per part (RMB with VAT) :|合計（含稅）：
+453,C117,¥5.34,117,¥5.34
+454,D117,¥5.07,117,¥5.07
+455,B118,Freight|運費：,118,Freight|運費：
+456,C118,,118,
+457,D118,,118,
+458,B119,,119,
+459,C119,,119,
+460,D119,,119,
