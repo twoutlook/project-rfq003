@@ -307,29 +307,16 @@ Ext.onReady(function () {
             //
             //筛选&包装
             {sheet: 3, row: 0, col: 0, json: {ta: "center", height: 20, va: "middle"}},
-            {sheet: 3, row: 0, col: 1, json: {ta: "center", data: "A", width: 200}},
+            {sheet: 3, row: 0, col: 1, json: {ta: "center", data: "A", width: 420}},
             {sheet: 3, row: 0, col: 2, json: {fm: "money|¥|2|none", ta: "center", data: "B", width: 100}},
             {sheet: 3, row: 0, col: 3, json: {fm: "money|¥|2|none", ta: "center", data: "C", width: 100}},
             //[[A0603]] 無效
             {sheet: 3, row: 0, col: 4, json: {fm: "money||2|none", ta: "center", data: "D", width: 100}},
-            //[[A0603]]
-            {sheet: 3, row: 1, col: 1, json: {ta: 'center', data: '压铸合模费：'}},
-            {sheet: 3, row: 2, col: 1, json: {ta: 'center', data: '一。铝合金压铸合模费：'}},
-            //[[A0606]]
-//            {sheet: 3, row: 3, col: 1, json: {ta: 'center', data: '铝-125T'}},
-//            {sheet: 3, row: 4, col: 1, json: {ta: 'center', data: '鋁-150T/160T/200T'}},
-//            {sheet: 3, row: 5, col: 1, json: {ta: 'center', data: '鋁-250T/280T'}},
-//            {sheet: 3, row: 6, col: 1, json: {ta: 'center', data: '鋁-350T/340T/400T'}},
-//            {sheet: 3, row: 7, col: 1, json: {ta: 'center', data: '鋁-550T/530T/500T'}},
-//            {sheet: 3, row: 8, col: 1, json: {ta: 'center', data: '鋁-630T/650T'}},
-//            {sheet: 3, row: 9, col: 1, json: {ta: 'center', data: '鋁-800T/900T'}},
-//            {sheet: 3, row: 10, col: 1, json: {ta: 'center', data: '鋁-1250T'}},
-//            {sheet: 3, row: 11, col: 1, json: {ta: 'center', data: '鋁-1600T'}},
-//            {sheet: 3, row: 12, col: 1, json: {ta: 'center', data: '鋁-2000T'}},
-//            {sheet: 3, row: 13, col: 1, json: {ta: 'center', data: '鋁-2500T'}},
-//            {sheet: 3, row: 14, col: 1, json: {ta: 'center', data: '鋁-3000T'}},
-
-            //---
+            
+            
+            //START [[A1010]]
+            {sheet: 3, row: 1, col: 1, json: {ta: 'center', data: 'Melting and Die Casting cost|压铸合模费：'}},
+            {sheet: 3, row: 2, col: 1, json: {ta: 'center', data: '(1)Aluminum Melting and Die Casting cost|一。铝合金压铸合模费：'}},
             {sheet: 3, row: 3, col: 1, json: {ta: 'center', data: 'AL-125T|铝-125T'}},
             {sheet: 3, row: 4, col: 1, json: {ta: 'center', data: 'AL-150T/160T/200T|鋁-150T/160T/200T'}},
             {sheet: 3, row: 5, col: 1, json: {ta: 'center', data: 'AL-250T/280T|鋁-250T/280T'}},
@@ -342,27 +329,26 @@ Ext.onReady(function () {
             {sheet: 3, row: 12, col: 1, json: {ta: 'center', data: 'AL-2000T|鋁-2000T'}},
             {sheet: 3, row: 13, col: 1, json: {ta: 'center', data: 'AL-2500T|鋁-2500T'}},
             {sheet: 3, row: 14, col: 1, json: {ta: 'center', data: 'AL-3000T|鋁-3000T'}},
-            //---
-
-
-
-            {sheet: 3, row: 15, col: 1, json: {ta: 'center', data: '二。锌合金压铸合模费：'}},
-            {sheet: 3, row: 16, col: 1, json: {ta: 'center', data: '鋅-快速机/4轴机'}},
-            {sheet: 3, row: 17, col: 1, json: {ta: 'center', data: '鋅-10T/5T'}},
-            {sheet: 3, row: 18, col: 1, json: {ta: 'center', data: '鋅-15T/20T'}},
-            {sheet: 3, row: 19, col: 1, json: {ta: 'center', data: '鋅-25T/30T/40T'}},
-            {sheet: 3, row: 20, col: 1, json: {ta: 'center', data: '鋅-50T/60T'}},
-            {sheet: 3, row: 21, col: 1, json: {ta: 'center', data: '鋅-80T/100T/125'}},
-            {sheet: 3, row: 22, col: 1, json: {ta: 'center', data: '鋅-150T'}},
-            {sheet: 3, row: 23, col: 1, json: {ta: 'center', data: '鋅-185/200T'}},
-            {sheet: 3, row: 24, col: 1, json: {ta: 'center', data: '鋅-250T'}},
-            {sheet: 3, row: 25, col: 1, json: {ta: 'center', data: '鋅-300T'}},
-            {sheet: 3, row: 26, col: 1, json: {ta: 'center', data: '三。镁合金压铸合模费：'}},
-            {sheet: 3, row: 27, col: 1, json: {ta: 'center', data: '鎂-150T'}},
-            {sheet: 3, row: 28, col: 1, json: {ta: 'center', data: '鎂-340T/400T'}},
-            {sheet: 3, row: 29, col: 1, json: {ta: 'center', data: '鎂-530T/660T'}},
-            {sheet: 3, row: 30, col: 1, json: {ta: 'center', data: 'THX-鎂280T'}},
-            {sheet: 3, row: 31, col: 1, json: {ta: 'center', data: 'THX-鎂650T'}},
+            {sheet: 3, row: 15, col: 1, json: {ta: 'center', data: '(2)Zinc Melting and Die Casting cost|二。锌合金压铸合模费：'}},
+            {sheet: 3, row: 16, col: 1, json: {ta: 'center', data: 'ZN-快速机/4轴机|鋅-快速机/4轴机'}},
+            {sheet: 3, row: 17, col: 1, json: {ta: 'center', data: 'ZN-10T/5T|鋅-10T/5T'}},
+            {sheet: 3, row: 18, col: 1, json: {ta: 'center', data: 'ZN-15T/20T|鋅-15T/20T'}},
+            {sheet: 3, row: 19, col: 1, json: {ta: 'center', data: 'ZN-25T/30T/40T|鋅-25T/30T/40T'}},
+            {sheet: 3, row: 20, col: 1, json: {ta: 'center', data: 'ZN-50T/60T|鋅-50T/60T'}},
+            {sheet: 3, row: 21, col: 1, json: {ta: 'center', data: 'ZN-80T/100T/125|鋅-80T/100T/125'}},
+            {sheet: 3, row: 22, col: 1, json: {ta: 'center', data: 'ZN-150T|鋅-150T'}},
+            {sheet: 3, row: 23, col: 1, json: {ta: 'center', data: 'ZN-185/200T|鋅-185/200T'}},
+            {sheet: 3, row: 24, col: 1, json: {ta: 'center', data: 'ZN-250T|鋅-250T'}},
+            {sheet: 3, row: 25, col: 1, json: {ta: 'center', data: 'ZN-300T|鋅-300T'}},
+            {sheet: 3, row: 26, col: 1, json: {ta: 'center', data: '(3)Magnesium Melting and Die Casting cost|三。镁合金压铸合模费：'}},
+            {sheet: 3, row: 27, col: 1, json: {ta: 'center', data: 'MG-150T|鎂-150T'}},
+            {sheet: 3, row: 28, col: 1, json: {ta: 'center', data: 'MG-340T/400T|鎂-340T/400T'}},
+            {sheet: 3, row: 29, col: 1, json: {ta: 'center', data: 'MG-530T/660T|鎂-530T/660T'}},
+            {sheet: 3, row: 30, col: 1, json: {ta: 'center', data: 'THX-MG280T|THX-鎂280T'}},
+            {sheet: 3, row: 31, col: 1, json: {ta: 'center', data: 'THX-MG650T|THX-鎂650T'}},
+            // END [[A1010]]
+            
+            
             {sheet: 3, row: 1, col: 2, json: {ta: 'center', data: '壓鑄機台費率/H'}},
             {sheet: 3, row: 2, col: 2, json: {ta: 'center', data: ''}},
             {sheet: 3, row: 3, col: 2, json: {ta: 'center', data: '150'}},
@@ -650,12 +636,12 @@ Ext.onReady(function () {
             {sheet: 1, row: 0, col: 0, json: {fz: 10, ww: 'break-word', ws: 'normal', dsd: "", height: 20, va: "middle"}},
             {sheet: 1, row: 0, col: 1, json: {ta: "center", dsd: "", data: "A", width: 60}},
             {sheet: 1, row: 0, col: 2, json: {ta: "center", data: "B", width: 320}},
-            {sheet: 1, row: 0, col: 3, json: {dsd: "", width: 180}},
-            {sheet: 1, row: 0, col: 4, json: {dsd: "", width: 180}},
-            {sheet: 1, row: 0, col: 5, json: {dsd: "", width: 180}},
-            {sheet: 1, row: 0, col: 6, json: {dsd: "", width: 180}},
-            {sheet: 1, row: 0, col: 7, json: {dsd: "", width: 180}},
-            {sheet: 1, row: 0, col: 8, json: {dsd: "", width: 180}},
+            {sheet: 1, row: 0, col: 3, json: {dsd: "", width: 280}},
+            {sheet: 1, row: 0, col: 4, json: {dsd: "", width: 280}},
+            {sheet: 1, row: 0, col: 5, json: {dsd: "", width: 280}},
+            {sheet: 1, row: 0, col: 6, json: {dsd: "", width: 280}},
+            {sheet: 1, row: 0, col: 7, json: {dsd: "", width: 280}},
+            {sheet: 1, row: 0, col: 8, json: {dsd: "", width: 280}},
             {sheet: 1, row: 1, col: 0, json: {hidden: true}},
             {sheet: 1, row: 2, col: 0, json: {hidden: true}},
 //            {sheet: 1, row: 1, col: 1, json: {data: ""}},
