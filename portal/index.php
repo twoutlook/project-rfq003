@@ -54,9 +54,9 @@ if (strlen($active_user) == 0) {
             </div>
             <div style="font-size: 32pt">
                 <ul>
-                    <li>
-                        <a href="../A0707/">RFQ 報價自動化 </a> <span style="font-size: 12pt"> <i> 版本︰2016-07-07</i></span>
-                    </li>
+                    <!--<li>-->
+                    <!--    <a href="../A0707/">RFQ 報價自動化 </a> <span style="font-size: 12pt"> <i> 版本︰2016-07-07</i></span>-->
+                    <!--</li>-->
                     <li>
                         <a href="../A1006/">RFQ 報價自動化 </a> <span style="font-size: 12pt"> <mark><i>  版本︰2016-10-06 修改材料價格</i></mark> </span>
                     </li>
