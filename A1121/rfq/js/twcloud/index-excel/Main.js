@@ -593,10 +593,10 @@ Ext.onReady(function () {
             {sheet: 2, row: 18, col: 3, json: {dsd: "ed", data: "16.00"}},
             {sheet: 2, row: 19, col: 1, json: {dsd: "ed", data: "THX-AZ91D"}},
             {sheet: 2, row: 19, col: 2, json: {dsd: "ed", data: "23.50"}},
-            {sheet: 2, row: 19, col: 3, json: {dsd: "ed", data: "20.50"}},
+            {sheet: 2, row: 19, col: 3, json: {dsd: "ed", data: "15.00"}},
             {sheet: 2, row: 20, col: 1, json: {dsd: "ed", data: "THX-AM60"}},
             {sheet: 2, row: 20, col: 2, json: {dsd: "ed", data: "24.50"}},
-            {sheet: 2, row: 20, col: 3, json: {dsd: "ed", data: "21.50"}},
+            {sheet: 2, row: 20, col: 3, json: {dsd: "ed", data: "16.00"}},
        
        
             // A1121 - END
