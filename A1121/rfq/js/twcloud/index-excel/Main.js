@@ -489,7 +489,7 @@ Ext.onReady(function () {
 
 
 
-            {sheet: 5, row: 0, col: 0, json: {dsd: "", height: 20, va: "middle"}},
+            {sheet: 5, row: 0, col: 0, json: {dsd: "ed", height: 20, va: "middle"}},
             {sheet: 5, row: 0, col: 1, json: {ta: "center", data: "A", width: 200}},
             {sheet: 5, row: 0, col: 2, json: {fm: "money|¥|2|none", ta: "center", data: "B", width: 100}},
             {sheet: 5, row: 1, col: 1, json: {data: '後段加工 工时费率：'}},
