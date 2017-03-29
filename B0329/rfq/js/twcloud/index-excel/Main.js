@@ -963,11 +963,6 @@ Ext.onReady(function () {
             {sheet: 1, row: 111, col: 1, json: {data: ""}},
             {sheet: 1, row: 111, col: 2, json: {data: "合計（未稅）："}},
             {sheet: 1, row: 111, col: 3, json: styleSubTotal({data: "=C105+C107+C110"})},
-//            {sheet: 1, row: 112, col: 0, json: {hidden: true}},
-//            {sheet: 1, row: 113, col: 0, json: {hidden: true}},
-//            {sheet: 1, row: 114, col: 1, json: {data: ""}},
-//            {sheet: 1, row: 114, col: 2, json: {data: "总计（美金）： "}},
-//            {sheet: 1, row: 114, col: 3, json: {fm: "money|$|2|none", dsd: "ed", cal: true, data: "=(C111/6.35)"}},
             {sheet: 1, row: 112, col: 1, json: {data: ""}},
             {sheet: 1, row: 112, col: 2, json: {data: "总计（美金）： "}},
             {sheet: 1, row: 112, col: 3, json: {fm: "money|$|2|none", dsd: "ed", cal: true, data: "=(C111/6.35)"}},
@@ -1514,6 +1509,7 @@ Ext.onReady(function () {
             {sheet: 1, row: 111, col: 6, json: styleSubTotal({data: "=F105+F107+F110"})},
             {sheet: 1, row: 111, col: 7, json: styleSubTotal({data: "=G105+G107+G110"})},
             {sheet: 1, row: 111, col: 8, json: styleSubTotal({data: "=H105+H107+H110"})},
+
 // --- extend73X(112, {sheet: 1, row: 112, col: 3, json: {fm: "money|$|2|none", dsd: "ed", cal: true, data: "=(C111/6.35)"}}, ) ---
             {sheet: 1, row: 112, col: 3, json: {fm: "money|$|2|none", dsd: "ed", cal: true, data: "=(C111/6.35)"}},
             {sheet: 1, row: 112, col: 4, json: {fm: "money|$|2|none", dsd: "ed", cal: true, data: "=(D111/6.35)"}},
@@ -1748,9 +1744,20 @@ Ext.onReady(function () {
     SHEET_API.insertRow(SHEET_API_HD, 1, 49, 1);
     SHEET_API.updateCells(SHEET_API_HD, getPatchCellA001(5)); // 之前有4,但不使用. 
     console.log("PATCH#3 after SHEET_API.updateCells(SHEET_API_HD,  getPatchCellA001(5));---B0329难易系数");
-
-
-
+    // 往下雖然還有代碼, 基本上不影響到今天所做的
+    // 曾有想要再單獨加上 patch-B0329.js
+    // 現在先決定直接在 patch-A0601.js的基礎上,搭便車 
+    // --------- 原始邮件信息 ---------
+    // 发件人: "jason.hsu" <jason.hsu@skyrock-casting.com>
+    // 收件人: "'陈炳陵'" <mark.chen@fulltech-metal.com>
+    // 抄送: "'吴文清'" <wq.wu@skyrockcasting.com>, "'wwy.wu'" <wwy.wu@fulltech-metal.com>, "'孙永飞'" <yf.sun@skyrockcasting.com>, "RJ/工程/袁伟" <yw.yuan@fulltech-metal.com>, "'vicky'" <vicky.li@skyrock-casting.com>, "FC/K/Cherry 陈" <cherry.chen@skyrock-casting.com>, "FT/K/周云玲" <ranee@fulltech-metal.com>, "F C/汪静 FC/K/汪静" <amy.wang@skyrock-casting.com>, "'Echo.Xiang'" <echo.xiang@skyrock-casting.com>, "SK/鲁工 SK/鲁建兵" <jb.lu@skyrockdiecasting.com>, "'jm.chen'" <jm.chen@skyrockdiecasting.com>, "'David'" <david.hsu@skyrock-casting.com>
+    // 主题: 报价公式上的汇率计算基准，請更改為 USD1.00 = RMB6.65
+    // 日期: 2017/03/28 19:57:21 (Tue)
+    // Dear Mark，
+    // 从现在起报价公式上的汇率计算基准，請更改為 USD1.00 = RMB6.65
+    // 
+    // 採用新的汇率也可以直接在getPatchCellA001(5)實現
+    //
 
 
     function getTemp1() {
