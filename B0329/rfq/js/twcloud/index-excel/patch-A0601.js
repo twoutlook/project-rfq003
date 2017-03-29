@@ -12,7 +12,12 @@ function getPatchCellA001(k) {
     if (k === 4) {
         //   return getPatchCellsA0601_4();
     }
-
+    
+    //B0329
+    if (k === 5) {
+        return getPatchCellsA0601_5();
+    }
+  
 }
 
 function getPatchCellsA0601_1() {
@@ -124,6 +129,35 @@ function getPatchCellsA0601_3() {
     //MOQ
             {sheet: 1, row: 14, col: 2, json: {data: 'MOQ：'}},
             {sheet: 1, row: 22, col: 2, json: {data: '专用测试设备费用：'}}
+    );
+    return cells;
+}
+
+function getPatchCellsA0601_5() {
+    var cells = [];
+    cells.push(
+            // {sheet: 1, row: 24, col: 3, json: styleSubTotal({data: '=SUM(C19:C23)'})},
+            // {sheet: 1, row: 24, col: 4, json: styleSubTotal({data: '=SUM(D19:D23)'})},
+            // {sheet: 1, row: 24, col: 5, json: styleSubTotal({data: '=SUM(E19:E23)'})},
+            // {sheet: 1, row: 24, col: 6, json: styleSubTotal({data: '=SUM(F19:F23)'})},
+            // {sheet: 1, row: 24, col: 7, json: styleSubTotal({data: '=SUM(G19:G23)'})},
+            // {sheet: 1, row: 24, col: 8, json: styleSubTotal({data: '=SUM(H19:H23)'})},
+            // {sheet: 1, row: 22, col: 3, json: styleInput({fm: "money|¥|2|none", data: "0"})},
+            // {sheet: 1, row: 22, col: 4, json: styleInput({fm: "money|¥|2|none", data: "0"})},
+            // {sheet: 1, row: 22, col: 5, json: styleInput({fm: "money|¥|2|none", data: "0"})},
+            // {sheet: 1, row: 22, col: 6, json: styleInput({fm: "money|¥|2|none", data: "0"})},
+            // {sheet: 1, row: 22, col: 7, json: styleInput({fm: "money|¥|2|none", data: "0"})},
+            // {sheet: 1, row: 22, col: 8, json: styleInput({fm: "money|¥|2|none", data: "0"})},
+    //MOQ
+            // {sheet: 1, row: 14, col: 2, json: {data: 'MOQ：'}},
+            // {sheet: 1, row: 22, col: 2, json: {data: '专用测试设备费用：'}}
+
+
+            {sheet: 1, row: 49, col: 1, json: {data: "XXX"}},//for debug
+            {sheet: 1, row: 49, col: 2, json: {data: "難度係數 "}},
+            // {sheet: 1, row: 82, col: 3, json: styleInput({fm: "number", dfm: "0.0", data: "1"})},
+         
+
     );
     return cells;
 }

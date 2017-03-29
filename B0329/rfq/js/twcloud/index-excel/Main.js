@@ -1740,6 +1740,16 @@ Ext.onReady(function () {
 //    console.log(getPatchCellA001(3));
 
 //                                      getPatchCellA0602
+    // B0329
+    // 2017-03-39, by Mark
+    // 仿上打補丁, 在row 49插入
+    // 2-9) 难易系数
+    // 计算公式為：旧版压铸費總额* “难易系数” = 新版的压铸費
+    SHEET_API.insertRow(SHEET_API_HD, 1, 49, 1);
+    SHEET_API.updateCells(SHEET_API_HD, getPatchCellA001(5)); // 之前有4,但不使用. 
+    console.log("PATCH#3 after SHEET_API.updateCells(SHEET_API_HD,  getPatchCellA001(5));---B0329难易系数");
+
+
 
 
 
