@@ -45,7 +45,12 @@ function getDesiredData($obj) {
     // NOTE: 
     // [[A0601]] 位移重新定位百分比欄位 
     //if (in_array($rowNum, array(47,57,68,89,106))){
+    
+    // NOTE
+    // B0329, insert row 49
     if (in_array($rowNum, array(48,58,69,93,110))){
+    
+    // if (in_array($rowNum, array(48,59,70,94,111))){
         if ($colName>="C" && $colName<="H" ){
             $p1=str_replace("%","",$obj["data"]);
             $p2=  doubleval(str_replace(",","",$p1));
@@ -295,6 +300,8 @@ $objWriter = PHPExcel_IOFactory::createWriter($objPHPExcel, 'Excel2007');
 // --- 以下檔案內容由 mark-tool.php 生成，現階段先以手工複制粘貼方式
 //
 include 'make-excel-genearted-statements.php';//wrong spelling here
+//B0329, by Mark, 當時的公式是在這裡加進去的.
+
 
 //[[A0603]] 文清想去掉多的空行，目前的結構會破壞,沒找到隱
 // 不能設為0, 0.1 或 1 可行
@@ -303,7 +310,11 @@ $objPHPExcel->getActiveSheet()->getRowDimension('26')->setRowHeight(1);
 
 //
 //$objPHPExcel->getActiveSheet()->getRowDimension('27')->setRowHeight(1);
-$objPHPExcel->getActiveSheet()->getRowDimension('59')->setRowHeight(1);
+
+// B0329
+// HIDE ROW
+// $objPHPExcel->getActiveSheet()->getRowDimension('59')->setRowHeight(1);
+$objPHPExcel->getActiveSheet()->getRowDimension('60')->setRowHeight(1);
 
 $objPHPExcel->getActiveSheet()->getRowDimension('6')->setRowHeight(120);
 

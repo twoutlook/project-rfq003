@@ -74,7 +74,7 @@ if (strlen($active_user) == 0) {
         <script  charset="utf-8" type="text/javascript" src="js/twcloud/index-excel-en/patch-A0601.js"></script>
         <script  charset="utf-8" type="text/javascript" src="js/twcloud/index-excel-en/patch-A0602.js"></script>
         <script  charset="utf-8" type="text/javascript" src="js/twcloud/index-excel-en/patch-A0603.js"></script>
-        <!--<script  charset="utf-8" type="text/javascript" src="js/twcloud/index-excel-en/patch-A0606.js"></script>-->
+        <script  charset="utf-8" type="text/javascript" src="js/twcloud/index-excel-en/patch-A0606.js"></script>
         <script  charset="utf-8" type="text/javascript" src="js/twcloud/index-excel-en/patch-B0329.js"></script>
         <script  charset="utf-8" type="text/javascript" src="js/twcloud/index-excel-en/CUSTOMER_CELL_EDITOR.js"></script>
         <script  charset="utf-8" type="text/javascript" src="js/twcloud/index-excel-en/CUSTOMER_DEFINED_FN.js"></script>

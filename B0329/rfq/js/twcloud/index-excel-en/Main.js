@@ -108,6 +108,10 @@ Ext.onReady(function () {
 
     var ddl086 = {bgc: colorDdl, ta: "center", data: "===表面要求(2)===", drop: Ext.encode({data: ddl086Data})};
 
+  //[[A0606]] 其它特殊处理”一栏需细化，除了会议中提及的渗补、时效
+    var ddlSpecialData = "　,渗补,时效";//全形空白
+    var ddlSpecial = {bgc: colorDdl, ta: "center", data: "===其它特殊处理===", drop: Ext.encode({data: ddlSpecialData})};
+
 
 //var colorStep="#E6E6E6";
 //var colorStepEnd="#A9BCF5";
@@ -1827,6 +1831,16 @@ Ext.onReady(function () {
     SHEET_API.updateCells(SHEET_API_HD, getPatchA0606(1));
     //
 
+//B0329, second try
+    // 2017-03-29 14:38 by WuNan and Mark 
+    SHEET_API.insertRow(SHEET_API_HD, 1, 49, 1);
+    console.log("xxxxx 插入 row 49");
+    SHEET_API.updateCells(SHEET_API_HD, getPatchCellB0329(1)); // 之前有4,但不使用. 
+    console.log("xxxxxPATCH#3 after SHEET_API.updateCells(SHEET_API_HD,  getPatchCellB0329(1));---B0329难易系数");
+    
+    // 
+    //  === 所有補丁要放在這裡之前
+    //  NOTE
 
     //
     //

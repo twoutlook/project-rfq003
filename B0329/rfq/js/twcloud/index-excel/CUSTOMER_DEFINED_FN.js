@@ -461,7 +461,8 @@ function CUSTOM_BUTTON_CLICK___MAKE_EXCEL(value, row, column, sheetId, cellObj, 
             {json_by_user: JSON.stringify(json_by_user), isDataInCol: isDataInCol, data: JSON.stringify(data_in_json)},
             function (data, status) {
                 if (status === "success") {
-                    console.log(data);
+                    // console.log(data);
+                    console.log(" ...by php-excel/make-excel.php");
                     var cells = [];
                     cells.push({
                         sheet: 1,
@@ -485,6 +486,10 @@ function CUSTOM_BUTTON_CLICK___MAKE_EXCEL(value, row, column, sheetId, cellObj, 
             });
 
     return;
+
+    // B0329, 應該只到這裡.
+
+
 
 //    var dataVal = "CUSTOM_BUTTON_CLICK_CALLBACK_FN is called and cell button is clicked @ Row: " + row + "; Colum: " + column;
 //    var cells = [{sheet: sheetId, row: 12, col: 2, json: {data: dataVal}}];
