@@ -76,12 +76,14 @@ if (strlen($active_user) == 0) {
         <script  charset="utf-8" type="text/javascript" src="js/twcloud/index-excel/patch-A0602.js"></script>
         <script  charset="utf-8" type="text/javascript" src="js/twcloud/index-excel/patch-A0603.js"></script>
         <script  charset="utf-8" type="text/javascript" src="js/twcloud/index-excel/patch-A0606.js"></script>
+        <script  charset="utf-8" type="text/javascript" src="js/twcloud/index-excel/patch-B0329.js"></script>
         <script  charset="utf-8" type="text/javascript" src="js/twcloud/index-excel/CUSTOMER_CELL_EDITOR.js"></script>
         <script  charset="utf-8" type="text/javascript" src="js/twcloud/index-excel/CUSTOMER_DEFINED_FN.js"></script>
         <script  charset="utf-8" type="text/javascript" src="js/twcloud/index-excel/CenterPanel.js"></script>
         <script  charset="utf-8" type="text/javascript" src="js/twcloud/index-excel/Main.js"></script>	
         <!--<script type="text/javascript" src="js/jquery/jquery-1.12.3.js"></script>-->	
         // ...請稍候 [[公版]]
+        // B0329 
 
     </head>
 

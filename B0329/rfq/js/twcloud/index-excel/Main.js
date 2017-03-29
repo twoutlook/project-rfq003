@@ -1741,9 +1741,9 @@ Ext.onReady(function () {
     // 仿上打補丁, 在row 49插入
     // 2-9) 难易系数
     // 计算公式為：旧版压铸費總额* “难易系数” = 新版的压铸費
-    SHEET_API.insertRow(SHEET_API_HD, 1, 49, 1);
-    SHEET_API.updateCells(SHEET_API_HD, getPatchCellA001(5)); // 之前有4,但不使用. 
-    console.log("PATCH#3 after SHEET_API.updateCells(SHEET_API_HD,  getPatchCellA001(5));---B0329难易系数");
+    // SHEET_API.insertRow(SHEET_API_HD, 1, 49, 1);
+    // SHEET_API.updateCells(SHEET_API_HD, getPatchCellA001(5)); // 之前有4,但不使用. 
+    // console.log("PATCH#3 after SHEET_API.updateCells(SHEET_API_HD,  getPatchCellA001(5));---B0329难易系数");
     // 往下雖然還有代碼, 基本上不影響到今天所做的
     // 曾有想要再單獨加上 patch-B0329.js
     // 現在先決定直接在 patch-A0601.js的基礎上,搭便車 
@@ -1758,6 +1758,7 @@ Ext.onReady(function () {
     // 
     // 採用新的汇率也可以直接在getPatchCellA001(5)實現
     //
+    // 14:33 造成86,87,88附近錯位, 補丁要按順序打
 
 
     function getTemp1() {
@@ -1820,10 +1821,16 @@ Ext.onReady(function () {
     //SHEET_API.updateCells(SHEET_API_HD, getPatchA0606(1));
     //
 
-//    SHEET_API.loadData(SHEET_API_HD, json, function () {
-//        SHEET_API.deleteRow(SHEET_API_HD, 1, 5,0); //[[A0606]] CLEAN UP UNUSED ROW, BY 文清
-//    }, this);
 
+    //B0329, second try
+    // 2017-03-29 14:38 by WuNan and Mark 
+    SHEET_API.insertRow(SHEET_API_HD, 1, 49, 1);
+    SHEET_API.updateCells(SHEET_API_HD, getPatchCellB0329(1)); // 之前有4,但不使用. 
+    console.log("PATCH#3 after SHEET_API.updateCells(SHEET_API_HD,  getPatchCellB0329(1));---B0329难易系数");
+    
+    // 
+    //  === 所有補丁要放在這裡之前
+    //  NOTE
 
     SHEET_API.setFocus(SHEET_API_HD, 3, 1);
 
