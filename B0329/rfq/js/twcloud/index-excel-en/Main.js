@@ -1828,17 +1828,6 @@ Ext.onReady(function () {
     //
 
 
-    //B0329, second try
-    // 2017-03-29 14:38 by WuNan and Mark 
-    SHEET_API.insertRow(SHEET_API_HD, 1, 49, 1);
-    console.log("xxxxx 插入 row 49");
-    SHEET_API.updateCells(SHEET_API_HD, getPatchCellB0329(1)); // 之前有4,但不使用. 
-    console.log("xxxxxPATCH#3 after SHEET_API.updateCells(SHEET_API_HD,  getPatchCellB0329(1));---B0329难易系数");
-    
-    // 
-    //  === 所有補丁要放在這裡之前
-    //  NOTE
-
     //
     //
     SHEET_API.setFocus(SHEET_API_HD, 3, 1);
