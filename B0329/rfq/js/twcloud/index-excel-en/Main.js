@@ -1629,11 +1629,7 @@ Ext.onReady(function () {
 //          // 只是做成最後一行
             {sheet: 1, row: 0, col: 0, json: {fz: 10, ww: 'break-word', ws: 'normal', dsd: "", height: 36, va: "middle"}},
             {sheet: 1, row: 7, col: 1, json: {bgc: colorVersion, data: 'RFQ'}},
-            // B0329
-            // by wunan, 2017-03-29
-
-            // {sheet: 1, row: 8, col: 1, json: {bgc: colorVersion, data: 'A1121'}}, //VERSION
-            {sheet: 1, row: 8, col: 1, json: {bgc: colorVersion, data: 'B0329'}}, //VERSION
+            {sheet: 1, row: 8, col: 1, json: {bgc: colorVersion, data: 'A1121'}}, //VERSION
             {sheet: 1, row: 9, col: 1, json: {bgc: colorVersion, data: 'MEX'}}
         ]
     };
@@ -1831,6 +1827,17 @@ Ext.onReady(function () {
     SHEET_API.updateCells(SHEET_API_HD, getPatchA0606(1));
     //
 
+
+    //B0329, second try
+    // 2017-03-29 14:38 by WuNan and Mark 
+    SHEET_API.insertRow(SHEET_API_HD, 1, 49, 1);
+    console.log("xxxxx 插入 row 49");
+    SHEET_API.updateCells(SHEET_API_HD, getPatchCellB0329(1)); // 之前有4,但不使用. 
+    console.log("xxxxxPATCH#3 after SHEET_API.updateCells(SHEET_API_HD,  getPatchCellB0329(1));---B0329难易系数");
+    
+    // 
+    //  === 所有補丁要放在這裡之前
+    //  NOTE
 
     //
     //
