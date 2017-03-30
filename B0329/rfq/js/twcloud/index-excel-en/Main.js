@@ -659,7 +659,11 @@ Ext.onReady(function () {
 //           {sheet: 1, row: 3, col: 1, json: {data: "EXP1", it: "button", btnStyle: "color: #900; font-weight: bold;", onBtnClickFn: "CUSTOM_BUTTON_CLICK_CALLBACK_FN"}},
             {sheet: 1, row: 3, col: 2, json: {data: "Inquiry date:| 接受询价日期："}},
             //  {sheet: 1, row: 2, col: 3, json:{ data: "TODO 保存數據", it: "button", btnStyle: "color: #900; font-weight: bold;", onBtnClickFn: "CUSTOM_BUTTON_CLICK_CALLBACK_FN" } },
-            {sheet: 1, row: 3, col: 1, json: {data: "生成", it: "button", btnStyle: "color: blue; font-weight: bold;", onBtnClickFn: "CUSTOM_BUTTON_CLICK___MAKE_EXCEL"}},
+        
+            // B0329 FOR MEX USERS
+            // {sheet: 1, row: 3, col: 1, json: {data: "生成", it: "button", btnStyle: "color: blue; font-weight: bold;", onBtnClickFn: "CUSTOM_BUTTON_CLICK___MAKE_EXCEL"}},
+            {sheet: 1, row: 3, col: 1, json: {data: "make Excel", it: "button", btnStyle: "color: blue; font-weight: bold;", onBtnClickFn: "CUSTOM_BUTTON_CLICK___MAKE_EXCEL"}},
+            
             {sheet: 1, row: 4, col: 2, json: {data: "Sales:| 业务担当："}},
             {sheet: 1, row: 4, col: 3, json: {data: ""}},
             {sheet: 1, row: 5, col: 1, json: {data: ""}},
@@ -1005,7 +1009,10 @@ Ext.onReady(function () {
             {sheet: 1, row: 112, col: 1, json: {data: ""}},
             {sheet: 1, row: 112, col: 2, json: {data: "Total cost per Part (USD): |总计（美金）： "}},
             {sheet: 1, row: 112, col: 3, json: {fm: "money|$|2|none", dsd: "ed", cal: true, data: "=(C111/6.35)"}},
-            {sheet: 1, row: 113, col: 1, json: {data: "生成", it: "button", btnStyle: "color: blue; font-weight: bold;", onBtnClickFn: "CUSTOM_BUTTON_CLICK___MAKE_EXCEL"}},
+            
+            //B0329,by wunan
+            //{sheet: 1, row: 113, col: 1, json: {data: "生成", it: "button", btnStyle: "color: blue; font-weight: bold;", onBtnClickFn: "CUSTOM_BUTTON_CLICK___MAKE_EXCEL"}},
+            {sheet: 1, row: 113, col: 1, json: {data: "make Excel", it: "button", btnStyle: "color: blue; font-weight: bold;", onBtnClickFn: "CUSTOM_BUTTON_CLICK___MAKE_EXCEL"}},
             //json: { data: "www.google.com", link: "www.google.com"} },
 //                    {sheet: 1, row: 113, col: 2, json: { data: "www.google.com", link: "http://www.google.com"} },
 //
