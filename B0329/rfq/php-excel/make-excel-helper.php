@@ -27,6 +27,10 @@ echo "<br>//FIX 栏位C起，各小計的金額符號 ";
 echo "<br>//FIX 栏位C起，黄色格子下移一格 ";
 echo "<br>//FIX 栏位B 小計開始 下移一格 ";
 echo "<br>//FIX 栏位B  小計結束 下移一格 ";
+echo "<br>//FIX ROW 53=>54  公式 ";
+echo "<br>//FIX ROW 57=>58 公式 ";
+echo "<br>//FIX ROW 60=>61, 公式 ";
+echo "<br>//FIX ROW 64=>65, 65=>66, 公式 ";
 
 
 
@@ -85,7 +89,7 @@ $tool->extendColToCDEFGH(44,"=3600/C43");
 //45,                       =C42/C44
 $tool->extendColToCDEFGH(45,"=C42/C44");
 
-//49,                       =IF(ISNA((C45+C46)*(1+(1-C48/100))/C16),0,((C45+C46)*(1+(1-C48/100))/C16))
+//49, => 50
 // fix percent              =IF(ISNA((C45+C46)*(1+(1-C48))/C16),0,((C45+C46)*(1+(1-C48))/C16))
 // $tool->extendColToCDEFGH(49,"=IF(ISNA((C45+C46)*(1+(1-C48))/C16),0,((C45+C46)*(1+(1-C48))/C16))");
 
@@ -94,30 +98,56 @@ $tool->extendColToCDEFGH(50,"=C49*IF(ISNA((C45+C46)*(1+(1-C48))/C16),0,((C45+C46
 
 
 
-//53,                        =(C51/3600)*C52
-$tool->extendColToCDEFGH(53,"=(C51/3600)*C52");
+//53,=>54                        =(C51/3600)*C52
+//B0329
+// $tool->extendColToCDEFGH(53,"=(C51/3600)*C52");
+$tool->extendColToCDEFGH(54,"=(C52/3600)*C53");
 
-//57,                        =(C55/3600)*C56
-$tool->extendColToCDEFGH(57,"=(C55/3600)*C56");
 
-//60,                        =C57*(1+(1-C58/100))
+//57=>58,                        =(C55/3600)*C56
+//B0329
+// $tool->extendColToCDEFGH(57,"=(C55/3600)*C56");
+$tool->extendColToCDEFGH(58,"=(C56/3600)*C57");
+
+//60=>61,                        
 // fix percent               =C57*(1+(1-C58))
-$tool->extendColToCDEFGH(60,"=C57*(1+(1-C58))");
+// B0329
+// $tool->extendColToCDEFGH(60,"=C57*(1+(1-C58))");
+$tool->extendColToCDEFGH(61,"=C58*(1+(1-C59))");
 
 //64,  65                    =(C62/3600)*C63
-$tool->extendColToCDEFGH(64,"=(C62/3600)*C63");
-$tool->extendColToCDEFGH(65,"=(C62/3600)*C63");
+// $tool->extendColToCDEFGH(64,"=(C62/3600)*C63");
+// $tool->extendColToCDEFGH(65,"=(C62/3600)*C63");
+
+//B0329
+// 64=>65, 65=>66
+$tool->extendColToCDEFGH(65,"=(C63/3600)*C64");
+$tool->extendColToCDEFGH(66,"=(C63/3600)*C64");
 
 
-// 70, =IF(ISNA((C67/3600)*C68 * (1 + (1 - C69 / 100))),0,((C67/3600)*C68 * (1 + (1 - C69 / 100))))
-// fix percent               =IF(ISNA((C67/3600)*C68 * (1 + (1 - C69 ))),0,((C67/3600)*C68 * (1 + (1 - C69 ))))
-$tool->extendColToCDEFGH(70,"=IF(ISNA((C67/3600)*C68 * (1 + (1 - C69 ))),0,((C67/3600)*C68 * (1 + (1 - C69 ))))");
+// 70, 
+//$tool->extendColToCDEFGH(70,"=IF(ISNA((C67/3600)*C68 * (1 + (1 - C69 ))),0,((C67/3600)*C68 * (1 + (1 - C69 ))))");
+//B0329
+// 70=>71, 
+$tool->extendColToCDEFGH(71,"=IF(ISNA((C68/3600)*C69 * (1 + (1 - C70 ))),0,((C68/3600)*C69 * (1 + (1 - C70 ))))");
 
-// 74                        =IF(ISNA((C72/3600)*C73),0,((C72/3600)*C73))
-$tool->extendColToCDEFGH(74,"=IF(ISNA((C72/3600)*C73),0,((C72/3600)*C73))");
 
-//78                         =IF(ISNA(C77),0,(C76/3600)*C77)
-$tool->extendColToCDEFGH(78,"=IF(ISNA(C77),0,(C76/3600)*C77)");
+// 74                       
+//$tool->extendColToCDEFGH(74,"=IF(ISNA((C72/3600)*C73),0,((C72/3600)*C73))");
+
+//B0329
+// 74 =>75                      
+$tool->extendColToCDEFGH(75,"=IF(ISNA((C73/3600)*C74),0,((C73/3600)*C74))");
+
+
+//78                  
+//$tool->extendColToCDEFGH(78,"=IF(ISNA(C77),0,(C76/3600)*C77)");
+
+//B0329
+//78=>79                  
+$tool->extendColToCDEFGH(79,"=IF(ISNA(C78),0,(C77/3600)*C78)");
+
+
 
 // 84                        =C81*C82*C83
 $tool->extendColToCDEFGH(84,"=C81*C82*C83");
