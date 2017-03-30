@@ -461,6 +461,9 @@ function CUSTOM_BUTTON_CLICK___MAKE_EXCEL(value, row, column, sheetId, cellObj, 
     // $.post("php-excel-en/make-excel.php",
     //B0329
     //DEBUG, Can we share Chinese make Excel directly?
+    //note by wunan 
+    //直接使用php-excel，和公版共用
+    //php-excel-en在这个版本起删除
     $.post("php-excel/make-excel.php",
     
             {json_by_user: JSON.stringify(json_by_user), isDataInCol: isDataInCol, data: JSON.stringify(data_in_json)},
