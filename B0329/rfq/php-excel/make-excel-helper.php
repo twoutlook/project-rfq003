@@ -4,9 +4,28 @@
 error_reporting(E_ALL);
 
 $tool = new MarkTool();
+
+//发件人: "jason.hsu" <jason.hsu@skyrock-casting.com>
+// 收件人: "'陈炳陵'" <mark.chen@fulltech-metal.com>
+// 抄送: "'吴文清'" <wq.wu@skyrockcasting.com>, "'wwy.wu'" <wwy.wu@fulltech-metal.com>, "'孙永飞'" <yf.sun@skyrockcasting.com>, "RJ/工程/袁伟" <yw.yuan@fulltech-metal.com>, "'vicky'" <vicky.li@skyrock-casting.com>, "FC/K/Cherry 陈" <cherry.chen@skyrock-casting.com>, "FT/K/周云玲" <ranee@fulltech-metal.com>, "F C/汪静 FC/K/汪静" <amy.wang@skyrock-casting.com>, "'Echo.Xiang'" <echo.xiang@skyrock-casting.com>, "SK/鲁工 SK/鲁建兵" <jb.lu@skyrockdiecasting.com>, "'jm.chen'" <jm.chen@skyrockdiecasting.com>, "'David'" <david.hsu@skyrock-casting.com>
+// 主题: 报价公式上的汇率计算基准，請更改為 USD1.00 = RMB6.65
+// 日期: 2017/03/28 19:57:21 (Tue)
+
+//B0329
+$USD2RMB="6.65";
+
+
+
 echo '&lt;?php <br>';
+echo '<br>// reviewed by Mark, 2017-03-30 08:10 ';
+echo '<br>// 這是由 B0329/rfq/php-excel/make-excel-helper.php 生成的檔案 ';
+echo '<br>// 應該存放到檔案 B0329/rfq/php-excel/make-excel-to-include.php';
+echo "<br>// B0329 啟用 \$USD2RMB=$USD2RMB";
+
+
 $tool->makePercentFormat();
 $tool->makeSum(); //
+
 //
 //
 //
@@ -22,8 +41,14 @@ $moneyArrUSD = '[{"items":[25,116]}]';
 $tool->makeMoneyStyle("$", $moneyArrUSD);
 
 echo "<br> // USD 公式計算<br> ";
-$tool->extendColToCDEFGH(25,"=C24/6.35");
-$tool->extendColToCDEFGH(116,"=C115/6.35");
+
+//B0329
+// $tool->extendColToCDEFGH(25,"=C24/6.35");
+// $tool->extendColToCDEFGH(116,"=C115/6.35");
+$tool->extendColToCDEFGH(25,"=C24/$USD2RMB");
+$tool->extendColToCDEFGH(117,"=C116/$USD2RMB");
+
+
 
 //32,=C11
 $tool->extendColToCDEFGH(32,"=C11");

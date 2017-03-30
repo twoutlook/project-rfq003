@@ -297,10 +297,18 @@ $callStartTime = microtime(true);
 $objWriter = PHPExcel_IOFactory::createWriter($objPHPExcel, 'Excel2007');
 
 //
-// --- 以下檔案內容由 mark-tool.php 生成，現階段先以手工複制粘貼方式
+// --- 以下檔案內容由 make-excel-helper.php 生成，現階段先以手工複制粘貼方式
 //
-include 'make-excel-genearted-statements.php';//wrong spelling here
-//B0329, by Mark, 當時的公式是在這裡加進去的.
+// include 'make-excel-genearted-statements.php';
+//wrong spelling here
+// 2017-03-30 genearted => generated
+
+//B0329, by Mark, 當時Excel的公式是在這裡加進去的.
+// 因為在 enterprisesheet 只找到導出數值, 沒找到公式的導出
+include 'make-excel-to-include.php';
+
+
+
 
 
 //[[A0603]] 文清想去掉多的空行，目前的結構會破壞,沒找到隱
