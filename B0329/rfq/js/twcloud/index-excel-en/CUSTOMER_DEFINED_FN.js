@@ -465,19 +465,26 @@ function CUSTOM_BUTTON_CLICK___MAKE_EXCEL(value, row, column, sheetId, cellObj, 
                 if (status === "success") {
                     console.log(data);
                     var cells = [];
+
+                    // reviewed by Mark, 2017-03-30
+                    // 在頁面上指定的格子裡,顯示下載download 的字樣
                     cells.push({
                         sheet: 1,
                         row: 4,
                         col: 1,
-                        json: {data: "下載", link: "http://" + data}
+                        // B0329 for MEX users
+                        // json: {data: "下載", link: "http://" + data}
+                        json: {data: "download", link: "http://" + data}
                     }, {
                         sheet: 1,
-                        //[[A0601]] insert 3 more rows
-                        //row: 114,
-                        row: 118,
+                        //B0329
+                        // row: 118, 由於新增 row49,
+                        row: 119,
                         
                         col: 1,
-                        json: {data: "下載", link: "http://" + data}
+                        // B0329 for MEX users
+                        // json: {data: "下載", link: "http://" + data}
+                        json: {data: "download", link: "http://" + data}
                     });
                     SHEET_API.updateCells(SHEET_API_HD, cells);
 

@@ -471,10 +471,10 @@ function CUSTOM_BUTTON_CLICK___MAKE_EXCEL(value, row, column, sheetId, cellObj, 
                         json: {data: "下載", link: "http://" + data}
                     }, {
                         sheet: 1,
-                        //[[A0601]] insert 3 more rows
-                        //row: 114,
-                        row: 118,
-                        
+                       
+                       //B0329
+                        // row: 118, 由於新增 row49,by wunan
+                         row: 119,
                         col: 1,
                         json: {data: "下載", link: "http://" + data}
                     });
