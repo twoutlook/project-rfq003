@@ -29,7 +29,7 @@ function getPatchCellsB0329_1() {
     cells.push(
 
 
-            {sheet: 1, row: 49, col: 1, json: {data: "XXX"}},//for debug
+            //{sheet: 1, row: 49, col: 1, json: {data: "XXX"}},//for debug
             {sheet: 1, row: 49, col: 2, json: {data: "難度係數 "}},
             {sheet: 1, row: 49, col: 3, json: styleInput({fm: "number", dfm: "0.0", data: "1"})},
             {sheet: 1, row: 49, col: 4, json: styleInput({fm: "number", dfm: "0.0", data: "1"})},
@@ -47,7 +47,7 @@ function getPatchCellsB0329_1() {
             {sheet: 1, row: 50, col: 8, json: styleSubTotal({data: setNaToZero("H49*(H44+H45)*(1+(1-H47/100))/H16")})},
        
         // USD1.00 = RMB6.65
-            {sheet: 1, row: 25, col: 1, json: {data: "YYY"}},//for debug
+            //{sheet: 1, row: 25, col: 1, json: {data: "YYY"}},//for debug
            
             {sheet: 1, row: 25, col: 3, json: {fm: 'money|$|2|none', dsd: 'ed', cal: true, data: '=(C24/6.65)'}},
             {sheet: 1, row: 25, col: 4, json: {fm: 'money|$|2|none', dsd: 'ed', cal: true, data: '=(D24/6.65)'}},
@@ -66,7 +66,7 @@ function getPatchCellsB0329_1() {
             // {sheet: 1, row: 116, col: 7, json: {fm: 'money|$|2|none', dsd: 'ed', cal: true, data: '=(G115/6.65)'}},
             // {sheet: 1, row: 116, col: 8, json: {fm: 'money|$|2|none', dsd: 'ed', cal: true, data: '=(H115/6.65)'}},
        
-            {sheet: 1, row: 117, col: 1, json: {data: "ZZZ"}},//for debug
+            //{sheet: 1, row: 117, col: 1, json: {data: "ZZZ"}},//for debug
            
             {sheet: 1, row: 117, col: 3, json: {fm: 'money|$|2|none', dsd: 'ed', cal: true, data: '=(C116/6.65)'}},
             {sheet: 1, row: 117, col: 4, json: {fm: 'money|$|2|none', dsd: 'ed', cal: true, data: '=(D116/6.65)'}},
