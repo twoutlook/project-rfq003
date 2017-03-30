@@ -30,6 +30,7 @@ function getPatchCellsB0329_1() {
 
 
             // {sheet: 1, row: 49, col: 1, json: {data: "XXX"}},//for debug
+            {sheet: 1, row: 49, col: 1, json: {data: "2-9）"}},//for debug
             {sheet: 1, row: 49, col: 2, json: {data: "難度係數 "}},
             {sheet: 1, row: 49, col: 3, json: styleInput({fm: "number", dfm: "0.0", data: "1"})},
             {sheet: 1, row: 49, col: 4, json: styleInput({fm: "number", dfm: "0.0", data: "1"})},
