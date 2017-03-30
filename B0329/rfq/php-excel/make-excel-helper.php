@@ -32,7 +32,9 @@ echo "<br>//FIX ROW 57=>58 公式 ";
 echo "<br>//FIX ROW 60=>61, 公式 ";
 echo "<br>//FIX ROW 64=>65, 65=>66, 公式 ";
 echo "<br>//FIX ROW 往下所有公式 ";
-
+echo "<br>//FIX 斜体 下拉 ";
+echo "<br>//FIX 几个大型加总 ";
+echo "<br>//FIX 美金符号 ";
 
 $tool->makePercentFormat();
 $tool->makeSum(); //
@@ -52,7 +54,10 @@ $moneyArrRMB = '[{"items":[19, 20, 21, 22, 23,24, 31, 33, 36, 37, 38, 39, 42, 45
 
 $tool->makeMoneyStyle("¥", $moneyArrRMB);
 echo "<br> // USD<br> ";
-$moneyArrUSD = '[{"items":[25,116]}]';
+
+//B0329
+//$moneyArrUSD = '[{"items":[25,116]}]';
+$moneyArrUSD = '[{"items":[25,117]}]';
 $tool->makeMoneyStyle("$", $moneyArrUSD);
 
 echo "<br> // USD 公式計算<br> ";
@@ -207,88 +212,13 @@ $tool->extendColToCDEFGH(112,"=C110*C111");
 // 117=》118                        
 $tool->extendColToCDEFGH(118,"=C116*1.17");
 
-/*
-  $tool->makeCell32(32);
-  $tool->extendCell34X(34, "=100*C31*C16/(C31*C16+C33)/100"); //注意 EXCEL 和 ENTERPRISESHEET 的百分比表達方式不同
-  $tool->extendCell34X(36, "=(C30-C35)*C33/1000/C16");
-  $tool->extendCell34X(37, "=(C31+C33)*C30*0.02/1000/C16");
-  $tool->extendCell34X(38, "=IF(ISNA(C32+C36+C37),0,(C32+C36+C37))");
-  //
-  $tool->extendCell34X(43, "=3600/C42");
-  $tool->extendCell34X(44, "=C41/C43 ");
-  //$tool->extendCell34X(45, "  ");
-  //$tool->extendCell34X(46, "  ");
-  // 47 百分比要處理
-  // $tool->extendCell34X(48, "=(C44+C45)*(1+(1-C47/100))/C16");  // before fix
-  $tool->extendCell34X(48, "=(C44+C45)*(1+(1-C47))/C16");  //  after fix
 
-  $tool->extendCell34X(52, "=(C50/3600)*C51");
-  //
-  $tool->extendCell34X(56, "=(C54/3600)*C55");
-  //=C56*(1+(1-C57/100))
-  //$tool->extendCell34X(59, "=C56*(1+(1-C57/100))"); // TO FIX PERCENT
-  $tool->extendCell34X(59, "=C56*(1+(1-C57))");
-
-  // 63,64 SAME =(C61/3600)*C62'
-  $tool->extendCell34X(63, "=(C61/3600)*C62");
-  $tool->extendCell34X(64, "=(C61/3600)*C62");
-  //
-  //$tool->extendCell34X(69, "=(C66/3600)*C67 * (1 + (1 - C68 / 100))");
-  $tool->extendCell34X(69, "=IF(ISNA((C66/3600)*C67 * (1 + (1 - C68))),0,(C66/3600)*C67 * (1 + (1 - C68)))");
-
-  //73
-  //(C71/3600)*C72
-  $tool->extendCell34X(73, "=IF(ISNA((C71/3600)*C72),0,(C71/3600)*C72)");
-
-  //77
-  //"=IF(ISNA(C76),0,(C75/3600)*C76)
-  $tool->extendCell34X(77, "=IF(ISNA(C76),0,(C75/3600)*C76)");
-
-  //83
-  //
-  $tool->extendCell34X(83, "=C80*C81*C82");
-  //91
-  //"=C86*(C87+C88)*(1+(1-C89/100))*C90
-  //$tool->extendCell34X(91, "=C86*(C87+C88)*(1+(1-C89/100))*C90");
-  $tool->extendCell34X(91, "=C86*(C87+C88)*(1+(1-C89))*C90");
-
-  //95
-  //
-  $tool->extendCell34X(95, "=C94");
-
-  //99
-  //
-  $tool->extendCell34X(99, "=C98");
-
-  //104
-  //
-  $tool->extendCell34X(104, "=C102+C103");
-
-  //107
-  //
-  //$tool->extendCell34X(107, "=C105*C106/100");
-  $tool->extendCell34X(107, "=C105*C106");
+//B0329
+// revied by Mark, 應該是查表帶出的數據,用斜體表示
+//$fontJsonStrItalicTrue = '{"0000A0":[31,36,42,46,47,52,56,63,68,73,77,82,102,106]}'; //直接查表或是立即計算的
+$fontJsonStrItalicTrue = '{"0000A0":[31,36,42,46,47,53,57,64,69,74,78,83,103,107]}'; //直接查表或是立即計算的
 
 
-  //110
-  //
-  $tool->extendCell34X(110, "=C108+C109");
-
- */
-
-
-//
-//
-//
-//
-//
-//    var colorStep = "#A9BCF5";
-//    var colorStepEnd = "#E6E6E6";
-//    var colorSect = "#837E7C"; //bgc: colorSect, fm: "money|¥|2|none", dsd: "ed", cal: true
-//    var colorDdl = "#F9E79F"; //#82E0AA  
-//    var colorInput = "#F4D03F"; // 
-//    var arrStepEnd = [23, 24, 38, 48, 52, 59, 64, 69, 73, 77, 83, 91, 95, 99, 104, 105, 110, 111, 112];
-$fontJsonStrItalicTrue = '{"0000A0":[31,36,42,46,47,52,56,63,68,73,77,82,102,106]}'; //直接查表或是立即計算的
 
 //B0329
 //COL B
@@ -303,8 +233,9 @@ $colorJsonStrStepStart = '{"A9BCF5":[15,28,29,40,51,55,62,67,72,76,80,86,97,101,
 // lorJsonStrStepEnd = '{"BE6E6E6":[39,49,53,60,65,70,74,78,84,95,99, 103,108,111,114]}';
 $colorJsonStrStepEnd = '{"BE6E6E6":[39,50,54,61,66,71,75,79,85,96,100,104,109,112,115]}';
 
-
-$jsonDdl = '{"F9E79F":[10,12,30,41,66,71,75,80,86]}';
+//B0329
+//$jsonDdl = '{"F9E79F":[10,12,30,41,66,71,75,80,86]}';
+$jsonDdl = '{"F9E79F":[10,12,30,41,67,72,76,81,87]}';
 
 
 //B0329
@@ -314,8 +245,9 @@ $jsonDdl = '{"F9E79F":[10,12,30,41,66,71,75,80,86]}';
 $jsonInput = '{"F4D03F":[11,16,19,20,21,22,23,34,43,48,52,56,59,63,68,70,73,77,82,84,88,89,90,91,92,93,94,95,98,99,102,106,108,111,113,114]}';
 
 
-
-$jsonBigTotal = '{"cccccc":[24,25,109,115,116,117]}';
+//B0329
+//$jsonBigTotal = '{"cccccc":[24,25,109,115,116,117]}';
+  $jsonBigTotal = '{"cccccc":[24,25,110,116,117,118]}';
 
 //[[A0601]]
 //    var colorVersion = "#98AFC7"; // 
@@ -476,10 +408,17 @@ class MarkTool {
      */
 
     public function makeSum() {
+        echo "<br><br>//<br>// reviewed by WuNan and Mark 各工序小計沒出現, 是不是在這裡? 是!";
         echo "<br><br>//<br>// file:" . __FILE__ . " line:" . __LINE__ . " function: " . __FUNCTION__ . "<br>//<br>";
 
+        //B0329
+        // $strUsd = '[{"sum":24, "items":[19,20,21,22,23]},{"sum":115, "items":[109,111,114]},{"sum":114, "items":[112,113]},{"sum":109, "items":[39,49,53,60,65,70,74,78,84,95,99,103,108]}]';
+        
+        $strUsd = '[{"sum":24, "items":[19,20,21,22,23]},{"sum":116, "items":[110,112,115]},{"sum":115, "items":[113,114]},{"sum":110, "items":[39,50,54,61,66,71,75,79,85,96,100,104,109]}]';
+        
 
-        $strUsd = '[{"sum":24, "items":[19,20,21,22,23]},{"sum":115, "items":[109,111,114]},{"sum":114, "items":[112,113]},{"sum":109, "items":[39,49,53,60,65,70,74,78,84,95,99,103,108]}]';
+
+
         $objUsd = json_decode($strUsd);
 //        print_r($objUsd);
 //__LINE__、__FUNCTION__
@@ -534,7 +473,10 @@ class MarkTool {
         echo "<br><br>//<br>// file:" . __FILE__ . " line:" . __LINE__ . " function: " . __FUNCTION__ . "<br>//<br>";
 
         echo "<br>// makePercentFormat 0.00% ok, FORMAT_PERCENTAGE_00 為什麼不行?<br>";
-        $strRmb = '[{"items":[35,48,58,69,93,110]}]';
+        //B0329
+        // $strRmb = '[{"items":[35,48,58,69,93,110]}]';
+           $strRmb = '[{"items":[35,48,59,70,94,111]}]';
+        
         $objRmb = json_decode($strRmb);
 
         foreach ($objRmb as $key => $obj) {

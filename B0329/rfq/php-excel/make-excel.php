@@ -35,6 +35,10 @@ $json_array = json_decode($data, true); // json_decode and json_encode not 100% 
 //    return false;
 //}
 
+
+//B0329
+//加點程式, 去掉用戶在頁用格內有換行時造成的<br/>
+
 function getDesiredData($obj) {
     $colName =  substr($obj["pos"],0, 1);
     $rowNum = (int) substr($obj["pos"], 1);
@@ -48,9 +52,9 @@ function getDesiredData($obj) {
     
     // NOTE
     // B0329, insert row 49
-    if (in_array($rowNum, array(48,58,69,93,110))){
-    
-    // if (in_array($rowNum, array(48,59,70,94,111))){
+    // if (in_array($rowNum, array(48,58,69,93,110))){
+    // 是否小數要2位??? TODO
+    if (in_array($rowNum, array(48,59,70,94,111))){
         if ($colName>="C" && $colName<="H" ){
             $p1=str_replace("%","",$obj["data"]);
             $p2=  doubleval(str_replace(",","",$p1));
@@ -66,12 +70,18 @@ function getDesiredData($obj) {
     $temp2 = str_replace('¥', '', $temp1);
     $temp3 = str_replace(',', '', $temp2);
 
+
+
+
     //}
 
 
     $temp4 = str_replace('<span style="padding-left:20px;font-size:0px;">&nbsp;</span>', '', $temp3);
     $temp5 = str_replace('===', '≡≡≡', $temp4);
     $temp6 = str_replace('#N/A', '', $temp5);
+    
+    //B0329
+    $temp6 = str_replace('<br/>', '', $temp6);
 
 
     return $temp6;
@@ -102,6 +112,9 @@ $debug003 = fopen("results/debug003.txt", "w") or die("Unable to open file!");
 fwrite($debug003, $data);
 fclose($debug003);
 
+// reviewed by Mark, 2017-03-29
+// to 吳楠
+// 先宣告變量,指向檔案results/debug004.txt, 可以寫入
 $debug004 = fopen("results/debug004.txt", "w") or die("Unable to open file!");
 //$debug005 = fopen("results/debug005.txt",  "rw, ccs=UTF-8") or die("Unable to open file!");
 $debug005 = fopen("results/debug005.txt", "w") or die("Unable to open file!");
@@ -111,6 +124,10 @@ $obj = $json_array;
 
 $obj2[] = array('pos' => "A0", 'data' => "xxx");
 
+
+// code reviewed by Mark, 2017-03-29
+// to 吳楠
+// results/debug004.txt, data 寫入的地方
 for ($i = 0; $i < count($obj); $i++) {
     fwrite($debug004, $i);
     fwrite($debug004, ",");
