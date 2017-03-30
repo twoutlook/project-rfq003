@@ -53,7 +53,7 @@ if (strlen($active_user) == 0) {
 
             </div>
             <div style="font-size: 32pt">
-                <mark><i>  版本︰2016-11-21, 修改材料價格</i></mark> 
+                <mark><i>  版本︰2017-03-29, (1)汇率计算改為 USD1.00 = RMB6.65(2)新增压铸件难易系数, 新版的压铸費=旧版压铸費總额* “难易系数”</i></mark> 
                 <ul>
                     <li>
                         <a target="_blank" href="index-zh.php">RFQ 報價自動化 ( 公版 )</a>
