@@ -60,8 +60,11 @@ if (strlen($active_user) == 0) {
                     <!--<li>-->
                     <!--    <a href="../A1006/">RFQ 報價自動化 </a> <span style="font-size: 12pt"> <mark><i>  版本︰2016-10-06 修改材料價格</i></mark> </span>-->
                     <!--</li>-->
+                    <!-- <li> -->
+                        <!-- <a href="../A1121/">RFQ 報價自動化 </a> <span style="font-size: 12pt"> <mark><i>  版本︰2016-11-21 修改材料價格</i></mark> </span> -->
+                    <!-- </li> -->
                     <li>
-                        <a href="../A1121/">RFQ 報價自動化 </a> <span style="font-size: 12pt"> <mark><i>  版本︰2016-11-21 修改材料價格</i></mark> </span>
+                        <a href="../B0329/">RFQ 報價自動化 </a> <span style="font-size: 12pt"> <mark><i> version 版本︰2017-03-29 </i></mark> </span>
                     </li>
          
                 </ul>
