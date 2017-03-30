@@ -149,43 +149,63 @@ $tool->extendColToCDEFGH(79,"=IF(ISNA(C78),0,(C77/3600)*C78)");
 
 
 
-// 84                        =C81*C82*C83
-$tool->extendColToCDEFGH(84,"=C81*C82*C83");
+// 84                      
+//$tool->extendColToCDEFGH(84,"=C81*C82*C83");
 
-// 95                        =C87*(SUM(C88:C92))*(1+(1-C93/100))*C94
-// fix percent               =C87*(SUM(C88:C92))*(1+(1-C93/100))*C94
-//$tool->extendColToCDEFGH(95,"=C87*(SUM(C88:C92))*(1+(1-C93))*C94");
-// [[A0607]]
-echo "//[[A0607]] 加入的 遮蔽費用等三項, 公式之前有誤";
-$tool->extendColToCDEFGH(95,"=(C87*(SUM(C88:C89))+SUM(C90:C92))*(1+(1-C93))*C94");
+//B0329
+// 84 =>85                     
+$tool->extendColToCDEFGH(85,"=C82*C83*C84");
 
 
+// 95                        
+//$tool->extendColToCDEFGH(95,"=(C87*(SUM(C88:C89))+SUM(C90:C92))*(1+(1-C93))*C94");
+//B0329
+// 95 =>96                       
+$tool->extendColToCDEFGH(96,"=(C88*(SUM(C89:C90))+SUM(C91:C93))*(1+(1-C94))*C95");
 
 
-// 99                        =C98
-$tool->extendColToCDEFGH(99,"=C98");
-
-// 103                     =C101/3600*C102
-$tool->extendColToCDEFGH(103,"=C101/3600*C102");
 
 
-//echo "// [[A0607]] FIX 106, 108 FORMULA IN EXCEL";
-// 108                        =C105/3600*C106+C107
-echo "//[[A0613]] #106 BUG";
-//[[A0613]]
-//$tool->extendColToCDEFGH(106,"=C105/3600");//BUG
-$tool->extendColToCDEFGH(106,"=C105*35/3600");
+// 99   
+//$tool->extendColToCDEFGH(99,"=C98");
 
-$tool->extendColToCDEFGH(108,"=C106+C107");
+//B0329
+// 99=>100   
+$tool->extendColToCDEFGH(100,"=C99");
+
+// 103                     
+//$tool->extendColToCDEFGH(103,"=C101/3600*C102");
+
+//B0329
+// 103=>104                     
+$tool->extendColToCDEFGH(104,"=C102/3600*C103");
 
 
-// 111                        =C109*C110/100
-// fix percent                =C109*C110
-$tool->extendColToCDEFGH(111,"=C109*C110");
 
-// 117                        =C115*1.17
-$tool->extendColToCDEFGH(117,"=C115*1.17");
+// 106,108                       
+//$tool->extendColToCDEFGH(106,"=C105*35/3600");
 
+//$tool->extendColToCDEFGH(108,"=C106+C107");
+
+//B0329
+// 106=》107,108 =》109                      
+$tool->extendColToCDEFGH(107,"=C106*35/3600");
+
+$tool->extendColToCDEFGH(109,"=C107+C108");
+
+// 111                       
+//$tool->extendColToCDEFGH(111,"=C109*C110");
+
+//B0329
+// 111 =》112                      
+$tool->extendColToCDEFGH(112,"=C110*C111");
+
+// 117                        
+//$tool->extendColToCDEFGH(117,"=C115*1.17");
+
+//B0329
+// 117=》118                        
+$tool->extendColToCDEFGH(118,"=C116*1.17");
 
 /*
   $tool->makeCell32(32);
