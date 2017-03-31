@@ -109,7 +109,12 @@ Ext.onReady(function () {
     var ddl086 = {bgc: colorDdl, ta: "center", data: "===表面要求(2)===", drop: Ext.encode({data: ddl086Data})};
 
   //[[A0606]] 其它特殊处理”一栏需细化，除了会议中提及的渗补、时效
-    var ddlSpecialData = "　,渗补,时效";//全形空白
+  //B0329
+  //2017-03-31 by wunan
+
+    
+    //var ddlSpecialData = "　,渗补,时效";//全形空白
+    var ddlSpecialData = " |　,Impregnation|渗补,Ageing-Heat Treatment|时效";//全形空白
     var ddlSpecial = {bgc: colorDdl, ta: "center", data: "===其它特殊处理===", drop: Ext.encode({data: ddlSpecialData})};
 
 

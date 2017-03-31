@@ -32,6 +32,15 @@ function getPatchCellsB0329_1() {
             //{sheet: 1, row: 49, col: 1, json: {data: "XXX"}},//for debug
             {sheet: 1, row: 49, col: 1, json: {data: "2-9）"}},//for debug
             {sheet: 1, row: 49, col: 2, json: {data: "Difficulty Index |難度係數 "}},
+            //B0329
+            //2017-03-31 by wunan
+            {sheet: 1, row: 86, col: 2, json: {data: "10)Powder. Wet Painting…: |10)粉体烤漆.液体烤漆...："}},
+            {sheet: 1, row: 91, col: 2, json: {data: "Masking: |遮蔽費用："}},
+            {sheet: 1, row: 92, col: 2, json: {data: "Printing: |印刷費用："}},
+            {sheet: 1, row: 93, col: 2, json: {data: "Laser cut: |镭雕費用："}},
+            
+
+
             {sheet: 1, row: 49, col: 3, json: styleInput({fm: "number", dfm: "0.0", data: "1"})},
             {sheet: 1, row: 49, col: 4, json: styleInput({fm: "number", dfm: "0.0", data: "1"})},
             {sheet: 1, row: 49, col: 5, json: styleInput({fm: "number", dfm: "0.0", data: "1"})},
